@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sivun otsikko (ei nay)</title>
+	<script src="../../../../../scripts/jquery.js"></script>
+	<script src="../../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Exercise 2. Product of Two Cosine Waves </h1>
+	<p>Replace Adder in the previous exercise with a Multiplier node.</p>
+	<img src="images/Execise2_Product_Figure2.svg" alt="Execise2_Product_Figure2">
+	<p class="caption">Figure 1 Multiplier, its output is the product of the two input signals.</p>
+	<p class="question">1. Look at the output signal of signal generator 0. What is the period of the output cosine waveform?</p>
+	<form>
+		<input type="radio" name="option" value="correct"> 20 µs
+		<input type="radio" name="option" value="incorrect"> 2 µs
+		<input type="radio" name="option" value="incorrect"> 0.2 ms
+	</form>
+	<p class="question">2. This corresponds to frequency</p>
+    <form>
+		<input type="radio" name="option" value="correct"> 50 kHz.
+		<input type="radio" name="option" value="incorrect"> 500 kHz
+		<input type="radio" name="option" value="incorrect"> 5 kHz
+	</form>
+	<p class="question">3. Look at the output signal of signal generator 1. What is the period of the output cosine waveform?</p>
+	<form>
+		<input type="radio" name="option" value="correct"> 20 µs
+		<input type="radio" name="option" value="incorrect"> 2 µs
+		<input type="radio" name="option" value="incorrect"> 0.2 ms
+	</form>
+	<p class="question">4. It corresponds to frequency</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> 50 kHz
+		<input type="radio" name="option" value="correct"> 500 kHz
+		<input type="radio" name="option" value="incorrect"> 5 kHz
+	</form>
+	<p class="question">5. Connect oscilloscope to the output terminal of the multiplier. Set time base so that you see each cycle of the waveform. What does it look like?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> 500 kHz waveform with constant amplitude
+		<br>
+		<input type="radio" name="option" value="incorrect"> 500 kHz cosine wave, which gets its maximum amplitude in periods of 20 µs
+		<br>
+		<input type="radio" name="option" value="correct"> 500 kHz cosine wave, which gets its maximum amplitude in periods of 10 µs
+	</form>
+	<p class="question">6. Look at the output of the multiplier with the spectrum analyzer. Which frequency components are present?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> 50 and 500 kHz
+		<input type="radio" name="option" value="incorrect"> 50 and 550 kHz 
+		<input type="radio" name="option" value="correct"> 450 and 550 kHz
+	</form>
+	<p class="question">7. Output consists of</p>
+	<form>
+		<input type="radio" name="option" value="correct" > Components at frequencies that is the sum and differenced of input frequencies 
+		<br>
+		<input type="radio" name="option" value="incorrect"> Original input frequencies
+		<br>
+		<input type="radio" name="option" value="incorrect"> Original input frequencies and sum and difference frequencies
+	</form>
+	<p class="question">8. Compare output signal of signal generator 0 and output signal of the multiplier with spectrum analyzer. What has happened to 50 kHz signal when it is multiplied by 500 kHz cosine waveform?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > Nothing, it is still the same
+		<input type="radio" name="option" value="incorrect"> It is transferred to 400 and 500 kHz and 50 kHz
+		<input type="radio" name="option" value="correct"> It is transferred to 450 and 550 kHz
+	</form>
+	<p class="question">9. Change frequency of signal generator 0 to 100 kHz. Now spectral components at the output of the multiplier are:</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > 100 and 500 kHz
+		<input type="radio" name="option" value="correct"> 400 and 600 kHz
+		<input type="radio" name="option" value="incorrect"> 450 and 550 kHz
+	</form>
+	<p class="question">10. When two cosine waveforms, the first at frequency <i>f</i><sub>1</sub> and the other at <i>f</i><sub>2</sub> are multiplied, the product contains</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > Only original frequencies 
+		<br>
+		<input type="radio" name="option" value="correct"> Only sum and difference frequency components
+		<br>
+		<input type="radio" name="option" value="incorrect"> Both original frequencies and sum and difference frequencies
+	</form>
+	<p class="question">11. Set frequency of both signal generators to 50 kHz cosine waveform with 1 V amplitude and compare input and output waveforms of the multiplier at the product by oscilloscope. Output signal is </p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > 50 kHz cosine wave
+		<br>
+		<input type="radio" name="option" value="incorrect"> 50 kHz cosine waveform on the top of 0.5 V dc level
+		<br>
+		<input type="radio" name="option" value="correct"> 100 kHz cosine waveform on the top of 0.5 V dc level
+	<form>
+	<p class="question">12. Output signal consists of </p>
+	<form>
+		<input type="radio" name="option" value="correct" > A cosine waveform with double frequency compared to input and zero frequency (dc-component), i.e., frequency difference of two input signals 
+		<br>
+		<input type="radio" name="option" value="incorrect"> A cosine waveform with the same frequency as at the input and zero frequency (dc-component), i.e., frequency difference of two input signals
+		<br>
+		<input type="radio" name="option" value="incorrect"> A cosine waveform with triple frequency compared to the input and zero frequency (dc-component), i.e., frequency difference of two input signals
+	<form>
+	<p class="question">13.  Look at the output by spectrum analyzer. Frequency components you see are</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > 50 and 100 kHz
+		<input type="radio" name="option" value="correct"> 0 and 100 kHz
+		<input type="radio" name="option" value="incorrect"> 0 and 50 kHz
+	<form>
+    <p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">You passed test. You may now start Exercise 2: Impact of LPF on Signal Shape and Spectrum</p>	
+    <p class="failure">Test failed. Consider again answers that are not correct</p>
+    <button>Submit your answers</button>   
+  </body>
+</html>

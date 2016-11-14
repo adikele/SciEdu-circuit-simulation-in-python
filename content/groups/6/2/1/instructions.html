@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sivun otsikko (ei nay)</title>
+	<script src="../../../../../scripts/jquery.js"></script>
+	<script src="../../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Exercise 1. Analog AM Modulator (with Full Carrier)</h1>
+	<p>Make a block diagram shown in figure below. Signal Generator in cosine or sawtooth mode produces actual information signal to be transmitted with the help of the carrier waveform. DC-source gives DC-offset that is needed to produce full carrier AM. Modulated signal that is transmitted over transmission path to the receiver is produced by the multiplier node.</p>
+	<img src="images/Exercise1_AM_Modulator.svg" alt="Exercise1_AM_Modulator">
+	<p class="caption">AM Modulator</p>
+	<p class="question">1. Connect oscilloscope to carrier source and measure its period. It is</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">1 microsec.
+		<input type="radio" name="option" value="incorrect">1 msec.
+		<input type="radio" name="option" value="correct">0.1 msec.
+	</form>
+    <p class="question">2. This corresponds to carrier frequency.</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">1 MHz
+		<input type="radio" name="option" value="incorrect">1 kHz
+		<input type="radio" name="option" value="correct">10 kHz
+	</form><p class="question"></p>
+	<form>
+	<p class="question">3. Measure carrier source output by spectrum analyzer. Frequency of the strongest frequency component is:</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">1 MHz
+		<input type="radio" name="option" value="incorrect">1 kHz
+		<input type="radio" name="option" value="correct">10 kHz
+	</form>
+	<p class="question">4. Set Signal Generator to cosine mode with frequency 10 and amplitude 1 and DC source to value 1.
+    Connect oscilloscope to Signal Generator. What is the period of the modulating signal?
+    </p>
+	<form>
+		<input type="radio" name="option" value="incorrect">1 sec.
+		<input type="radio" name="option" value="incorrect">100 msec.
+		<input type="radio" name="option" value="correct">10 ms.
+	</form>
+	<p class="question">5. What is the corresponding frequency?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">1 Hz
+		<input type="radio" name="option" value="correct">10 Hz
+		<input type="radio" name="option" value="incorrect">100 Hz
+	</form>
+	<p class="question">6. Use spectrum Analyzer to measure frequency of Signal generator. It is</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">100 Hz
+		<input type="radio" name="option" value="incorrect">1 Hz
+		<input type="radio" name="option" value="correct">10 Hz
+	</form>
+	<p class="question">7. Which output signal corresponds to the actual message or information signal to be transmitted with the help of the carrier?</p>
+	<form>
+		<input type="radio" name="option" value="correct">SigGen output
+		<input type="radio" name="option" value="incorrect">Adder output
+		<input type="radio" name="option" value="incorrect">Multiplier output
+	</form>
+	</form>
+	<p class="question">8. Which output signal represents AM modulated signal to be transmitted to the transmission channel?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">SigGen output
+		<input type="radio" name="option" value="incorrect">Adder output
+		<input type="radio" name="option" value="correct">Multiplier output
+	</form>
+	<p class="question">9. Look at the modulated carrier wave at the output of the modulator. Output waveform of the Signal Generator (message) changes carrier’s</p>
+	<form>
+		<input type="radio" name="option" value="correct">Amplitude
+		<input type="radio" name="option" value="incorrect">Frequency
+		<input type="radio" name="option" value="correct">Phase shift
+	</form>
+	</form>
+	<p class="question">10. What is the modulation index or depth when cosine waveform amplitude is 1V and DC offset 1 V?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">50%
+		<input type="radio" name="option" value="correct">100%
+		<input type="radio" name="option" value="incorrect">200%
+	</form>
+	</form><p class="question">11. Reduce Signal Generator’s output amplitude to 0.5 V. What is the modulation index now?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">50%
+		<input type="radio" name="option" value="correct">100%
+		<input type="radio" name="option" value="incorrect">200%
+	</form>
+	<p class="question">12. Increase cosine waveform amplitude to 2 V. Does AM still work properly, i.e., does the envelope follow message?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">yes
+		<input type="radio" name="option" value="incorrect">quite well
+		<input type="radio" name="option" value="correct">no
+	</form>
+	<p class="question">13. What has happened?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">undermodulation
+		<input type="radio" name="option" value="incorrect">frequency modulation
+		<input type="radio" name="option" value="correct">overmodulation
+	</form>
+	<p class="question">14. Set Signal Generator amplitude to 1 V, frequency to 10 Hz and look at the modulator output with Spectrum Analyzer. Spectrum contains frequency components:</p>
+	<form>
+		<input type="radio" name="option" value="correct">Carrier and sidebands
+		<input type="radio" name="option" value="incorrect">Carrier only
+		<input type="radio" name="option" value="incorrect">Sidebands only
+	<form>
+	<p class="question">15. What is the distance in Hz from each sideband to the carrier frequency?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">1 Hz
+		<input type="radio" name="option" value="incorrect">10 Hz
+		<input type="radio" name="option" value="correct">10 kHz
+	</form>
+	<p class="question">16. Increase frequency of the Signal Generator to 20 Hz. What is now the distance between carrier and upper or lower sideband frequencies?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">20 kHz
+		<input type="radio" name="option" value="incorrect">10 kHz
+		<input type="radio" name="option" value="correct">1 Hz
+	</form>
+	<p class="question">17. What is the required bandwidth of the channel to pass though whole AM spectrum when signal generator frequency is 20 Hz?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">10 Hz
+		<input type="radio" name="option" value="incorrect">20 Hz
+		<input type="radio" name="option" value="correct">40 Hz
+	</form>
+	<p class="question">18. What is the required bandwidth of the channel to pass though whole AM spectrum when signal generator (message) frequency is 10 Hz?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">10 Hz
+		<input type="radio" name="option" value="correct">20 Hz
+		<input type="radio" name="option" value="incorrect">40 Hz
+	</form>
+	<p class="question">19. What happens to required bandwidth when message frequency is increased?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Bandwidth do not change
+		<input type="radio" name="option" value="correct">Bandwidth increases
+		<input type="radio" name="option" value="incorrect">Bandwidth decreases
+	</form>
+	<p class="question">20. How much lower are sideband component levels compared to carrier component when modulation index is 100%? Use spectrum analyzer.</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">3 dB
+		<input type="radio" name="option" value="correct">6 dB
+		<input type="radio" name="option" value="incorrect">12 dB
+	</form>
+	<p class="question">21. Change Signal Generator amplitude so that modulation index is 50 %. How much lower are sideband components now compared to the carrier component?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">3 dB
+		<input type="radio" name="option" value="incorrect">6 dB
+		<input type="radio" name="option" value="correct">12 dB
+	</form>
+	<p class="question">22. Set signal generator to sawtooth or triangular mode and look at the output of the modulator with oscilloscope. Envelope of the modulated signal has shape of</p>
+	<form>
+		<input type="radio" name="option" value="correct">Triangular
+		<input type="radio" name="option" value="incorrect">Cosine
+		<input type="radio" name="option" value="incorrect">Rectangular
+	</form>
+    <p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">You passed test. You may now start Exercise 2: Impact of LPF on Signal Shape and Spectrum</p>	
+    <p class="failure">Test failed. Consider again answers tat are not correct</p>
+    <button>Submit your answers</button>  
+  </body>
+</html>

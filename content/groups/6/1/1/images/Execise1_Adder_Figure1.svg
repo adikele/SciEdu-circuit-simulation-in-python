@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="100mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 29700 10000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:50}
+    .str1 {stroke:#2B2A29;stroke-width:20}
+    .fil0 {fill:none}
+    .fil1 {fill:#2B2A29}
+    .fnt0 {font-weight:normal;font-size:564.44px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="6493" y="2764" width="3482" height="2442"/>
+  <text x="7058" y="3696"  class="fil1 fnt0">SigGen 0</text>
+  <rect class="fil1 str1" x="9652" y="3717" width="323" height="538"/>
+  <text x="5957" y="1376"  class="fil1 fnt0">Signal Generators</text>
+  <text x="6333" y="2006"  class="fil1 fnt0">in cosine mode</text>
+  <rect class="fil0 str0" x="12468" y="3990" width="3482" height="2442"/>
+  <text x="13498" y="4841"  class="fil1 fnt0">Adder</text>
+  <rect class="fil1 str1" x="15627" y="4943" width="323" height="538"/>
+  <rect class="fil1 str1" x="12468" y="4402" width="323" height="538"/>
+  <rect class="fil1 str1" x="12468" y="5534" width="323" height="538"/>
+  <line class="fil0 str0" x1="10010" y1="7401" x2="12443" y2= "5952" />
+  <rect class="fil0 str0" x="18860" y="2881" width="3482" height="2442"/>
+  <text x="19559" y="3589"  class="fil1 fnt0">Oscillosc</text>
+  <rect class="fil1 str1" x="18860" y="3832" width="323" height="538"/>
+  <rect class="fil0 str0" x="18895" y="6435" width="3482" height="2442"/>
+  <text x="19442" y="7322"  class="fil1 fnt0">SpecAna</text>
+  <rect class="fil1 str1" x="18895" y="7386" width="323" height="538"/>
+  <text x="17104" y="1799"  class="fil1 fnt0">Measurement Equipment</text>
+  <line class="fil0 str0" x1="9975" y1="3950" x2="12630" y2= "4671" />
+  <rect class="fil0 str0" x="6527" y="5973" width="3482" height="2442"/>
+  <text x="7092" y="6905"  class="fil1 fnt0">SigGen 1</text>
+  <rect class="fil1 str1" x="9686" y="6926" width="323" height="538"/>
+ </g>
+</svg>

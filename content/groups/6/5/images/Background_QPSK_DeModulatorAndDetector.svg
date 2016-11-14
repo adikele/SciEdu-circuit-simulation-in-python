@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="140mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 29700 14000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:50}
+    .str1 {stroke:#2B2A29;stroke-width:25}
+    .fil0 {fill:none}
+    .fil1 {fill:#2B2A29}
+    .fil2 {fill:#2B2A29;fill-rule:nonzero}
+    .fnt7 {font-weight:normal;font-size:440.27px;font-family:'Arial'}
+    .fnt2 {font-weight:normal;font-size:564.44px;font-family:'Arial'}
+    .fnt3 {font-weight:normal;font-size:564.44px;font-family:'Symbol'}
+    .fnt0 {font-weight:normal;font-size:846.67px;font-family:'Arial'}
+    .fnt1 {font-weight:normal;font-size:1270px;font-family:'Arial'}
+    .fnt6 {font-weight:normal;font-size:1320.83px;font-family:'Arial'}
+    .fnt4 {font-style:italic;font-weight:normal;font-size:564.44px;font-family:'Arial'}
+    .fnt8 {font-weight:normal;font-size:220.14px;font-family:'Arial';baseline-shift:super}
+    .fnt5 {font-style:italic;font-weight:normal;font-size:282.22px;font-family:'Arial';baseline-shift:sub}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="15335" y="9424" width="2136" height="2709"/>
+  <rect class="fil0 str0" x="21641" y="6766" width="1728" height="1728"/>
+  <ellipse class="fil0 str0" cx="13180" cy="10921" rx="575" ry="595"/>
+  <ellipse class="fil0 str0" cx="9522" cy="7649" rx="575" ry="595"/>
+  <text x="12900" y="11224"  class="fil1 fnt0">X</text>
+  <text x="9254" y="8192"  class="fil1 fnt1">+</text>
+  <g>
+   <path class="fil2" d="M9496 6821l0 -1422 50 0 0 1422 -50 0zm25 176l-150 -350 9 5 10 4 9 4 10 4 9 3 9 3 10 3 9 2 9 3 10 2 9 1 10 2 9 1 9 0 10 1 9 0 9 0 10 -1 9 0 10 -1 9 -2 9 -1 10 -2 9 -3 9 -2 10 -3 9 -3 10 -3 9 -4 9 -4 10 -4 9 -5 0 0 -150 350z"/>
+  </g>
+  <g>
+   <path class="fil2" d="M13109 10151l0 -1018 50 0 0 1018 -50 0zm25 176l-150 -350 9 4 10 5 9 4 9 3 10 4 9 3 9 2 10 3 9 2 10 2 9 2 9 1 10 1 9 1 9 0 10 0 9 0 10 0 9 -1 9 -1 10 -1 9 -2 9 -2 10 -2 9 -3 10 -2 9 -3 9 -4 10 -3 9 -4 9 -5 10 -4 0 0 -150 350z"/>
+  </g>
+  <g>
+   <path class="fil2" d="M13162 5730l0 -726 50 0 0 726 -50 0zm25 176l-150 -350 9 5 10 4 9 4 9 3 10 4 9 3 9 3 10 2 9 2 10 2 9 2 9 1 10 1 9 1 9 0 10 1 9 -1 10 0 9 -1 9 -1 10 -1 9 -2 9 -2 10 -2 9 -2 10 -3 9 -3 9 -4 10 -3 9 -4 9 -4 10 -5 0 0 -150 350z"/>
+  </g>
+  <line class="fil0 str0" x1="11728" y1="7615" x2="11728" y2= "10907" />
+  <g>
+   <path class="fil2" d="M12428 10926l-700 0 0 -50 700 0 0 50zm176 -25l-350 150 5 -9 4 -10 4 -9 3 -9 4 -10 3 -9 3 -10 2 -9 2 -9 2 -10 2 -9 1 -9 1 -10 1 -9 0 -10 1 -9 -1 -9 0 -10 -1 -9 -1 -9 -1 -10 -2 -9 -2 -10 -2 -9 -2 -9 -3 -10 -3 -9 -4 -9 -3 -10 -4 -9 -4 -10 -5 -9 0 0 350 150z"/>
+  </g>
+  <line class="fil0 str0" x1="11734" y1="7615" x2="11734" y2= "4329" />
+  <g>
+   <path class="fil2" d="M12434 4354l-735 0 0 -50 735 0 0 50zm176 -25l-350 150 5 -10 4 -9 4 -9 4 -10 3 -9 3 -9 3 -10 2 -9 3 -10 2 -9 1 -9 2 -10 1 -9 0 -9 1 -10 0 -9 0 -10 -1 -9 0 -9 -1 -10 -2 -9 -1 -9 -2 -10 -3 -9 -2 -10 -3 -9 -3 -9 -3 -10 -4 -9 -4 -9 -4 -10 -5 -9 0 0 350 150z"/>
+  </g>
+  <g>
+   <path class="fil2" d="M8723 7660l-767 0 0 -50 767 0 0 50zm176 -25l-350 150 5 -9 4 -10 4 -9 3 -9 4 -10 3 -9 3 -10 2 -9 2 -9 2 -10 2 -9 1 -9 1 -10 1 -9 0 -10 0 -9 0 -9 0 -10 -1 -9 -1 -9 -1 -10 -2 -9 -2 -10 -2 -9 -2 -9 -3 -10 -3 -9 -4 -9 -3 -10 -4 -9 -4 -10 -5 -9 0 0 350 150z"/>
+  </g>
+  <text x="22063" y="7832"  class="fil1 fnt2">P/S</text>
+  <g>
+   <path class="fil2" d="M11565 7626l-1468 0 0 -50 1468 0 0 50zm176 -25l-350 150 5 -9 4 -10 4 -9 4 -9 3 -10 3 -9 3 -9 2 -10 3 -9 1 -10 2 -9 1 -9 1 -10 1 -9 1 -9 0 -10 0 -9 -1 -10 -1 -9 -1 -9 -1 -10 -2 -9 -1 -9 -3 -10 -2 -9 -3 -10 -3 -9 -3 -9 -4 -10 -4 -9 -4 -9 -5 -10 0 0 350 150z"/>
+  </g>
+  <text x="8815" y="4273"  class="fil1 fnt2">Noise</text>
+  <text x="8329" y="4904"  class="fil1 fnt2">generator</text>
+  <g transform="matrix(0.994902 0 0 1 8083.99 -2066.31)">
+   <text x="14850" y="7000"  class="fil1 fnt2">Even</text>
+  </g>
+  <g transform="matrix(0.994902 0 0 1 8083.99 -2066.31)">
+   <text x="14850" y="7631"  class="fil1 fnt2">bits</text>
+  </g>
+  <text x="22884" y="9726"  class="fil1 fnt2">Odd</text>
+  <text x="22884" y="10357"  class="fil1 fnt2">bits</text>
+  <text x="16082" y="6544"  class="fil1 fnt2">cos(2</text>
+  <text x="18227" y="6544"  class="fil1 fnt2">)</text>
+  <text x="17463" y="6544"  class="fil1 fnt3">p</text>
+  <text x="17772" y="6544"  class="fil1 fnt4">f</text>
+  <text x="18070" y="6544"  class="fil1 fnt4">t</text>
+  <text x="17929" y="6656"  class="fil1 fnt5">c</text>
+  <text x="9672" y="9401"  class="fil1 fnt4">r</text>
+  <text x="10048" y="9401"  class="fil1 fnt4">t</text>
+  <text x="9860" y="9401"  class="fil1 fnt2">(</text>
+  <text x="10205" y="9401"  class="fil1 fnt2">)</text>
+  <ellipse class="fil0 str0" cx="13180" cy="4409" rx="575" ry="595"/>
+  <text x="12900" y="4712"  class="fil1 fnt0">X</text>
+  <path class="fil0 str0" d="M16667 10399c-197,39 -302,147 -316,282 -17,203 82,271 -6,432 -58,105 -135,181 -320,224"/>
+  <g transform="matrix(1.27858 0 0 1 -2461.59 3197.8)">
+   <text x="14850" y="7000"  class="fil1 fnt4">T</text>
+  </g>
+  <g transform="matrix(1.27858 0 0 1 -3142.05 4846.26)">
+   <text x="14850" y="7000"  class="fil1 fnt2">0</text>
+  </g>
+  <g>
+   <path class="fil2" d="M15164 10918l-1368 0 0 -50 1368 0 0 50zm176 -25l-350 150 4 -9 5 -10 4 -9 3 -10 4 -9 3 -9 3 -10 2 -9 2 -9 2 -10 2 -9 1 -10 1 -9 1 -9 0 -10 0 -9 0 -9 0 -10 -1 -9 -1 -10 -1 -9 -2 -9 -2 -10 -2 -9 -2 -9 -3 -10 -3 -9 -4 -10 -3 -9 -4 -9 -5 -10 -4 -9 0 0 350 150z"/>
+  </g>
+  <rect class="fil0 str0" x="15340" y="2841" width="2136" height="2661"/>
+  <path class="fil0 str0" d="M16667 3799c-197,39 -302,147 -316,282 -17,203 82,271 -6,432 -58,105 -135,181 -320,224"/>
+  <g transform="matrix(1.27858 0 0 1 -2503.93 -3385.04)">
+   <text x="14850" y="7000"  class="fil1 fnt4">T</text>
+  </g>
+  <g transform="matrix(1.27858 0 0 1 -3184.38 -1800.08)">
+   <text x="14850" y="7000"  class="fil1 fnt2">0</text>
+  </g>
+  <g>
+   <path class="fil2" d="M15164 4318l-1368 0 0 -50 1368 0 0 50zm176 -25l-350 150 4 -9 5 -10 4 -9 3 -10 4 -9 3 -9 3 -10 2 -9 2 -9 2 -10 2 -9 1 -10 1 -9 1 -9 0 -10 0 -9 0 -9 0 -10 -1 -9 -1 -10 -1 -9 -2 -9 -2 -10 -2 -9 -2 -9 -3 -10 -3 -9 -4 -10 -3 -9 -4 -9 -5 -10 -4 -9 0 0 350 150z"/>
+  </g>
+  <g>
+   <path class="fil2" d="M18771 10907l-1367 0 0 -50 1367 0 0 50zm176 -25l-350 150 5 -9 4 -10 4 -9 4 -9 3 -10 3 -9 3 -10 2 -9 2 -9 2 -10 2 -9 1 -9 1 -10 1 -9 0 -10 1 -9 -1 -9 0 -10 -1 -9 -1 -9 -1 -10 -2 -9 -2 -10 -2 -9 -2 -9 -3 -10 -3 -9 -3 -9 -4 -10 -4 -9 -4 -10 -5 -9 0 0 350 150z"/>
+  </g>
+  <rect class="fil0 str0" x="18947" y="3370" width="1981" height="1905"/>
+  <g>
+   <path class="fil2" d="M18771 4357l-1367 0 0 -50 1367 0 0 50zm176 -25l-350 150 5 -9 4 -10 4 -9 4 -9 3 -10 3 -9 3 -10 2 -9 2 -9 2 -10 2 -9 1 -9 1 -10 1 -9 0 -10 1 -9 -1 -9 0 -10 -1 -9 -1 -9 -1 -10 -2 -9 -2 -10 -2 -9 -2 -9 -3 -10 -3 -9 -3 -9 -4 -10 -4 -9 -4 -10 -5 -9 0 0 350 150z"/>
+  </g>
+  <text x="14653" y="9037"  class="fil1 fnt2">cos(2</text>
+  <text x="17908" y="9037"  class="fil1 fnt2">)</text>
+  <text x="16034" y="9037"  class="fil1 fnt3">p</text>
+  <text x="17128" y="9037"  class="fil1 fnt3">p</text>
+  <text x="16343" y="9037"  class="fil1 fnt4">f</text>
+  <text x="16641" y="9037"  class="fil1 fnt4">t+</text>
+  <text x="17438" y="9037"  class="fil1 fnt4">/2</text>
+  <text x="16500" y="9150"  class="fil1 fnt5">c</text>
+  <polyline class="fil0 str0" points="19536,4825 19924,4825 19924,3873 20326,3873 "/>
+  <line class="fil0 str0" x1="19675" y1="4320" x2="20227" y2= "4320" />
+  <rect class="fil0 str0" x="18947" y="9951" width="1981" height="1905"/>
+  <polyline class="fil0 str0" points="19536,11406 19924,11406 19924,10454 20326,10454 "/>
+  <line class="fil0 str0" x1="19675" y1="10901" x2="20227" y2= "10901" />
+  <text x="24481" y="8506"  class="fil1 fnt2">Demodulated</text>
+  <text x="24528" y="9136"  class="fil1 fnt2">and detected </text>
+  <text x="24858" y="9767"  class="fil1 fnt2">serial data</text>
+  <g>
+   <path class="fil2" d="M26522 7626l-3189 0 0 -50 3189 0 0 50zm176 -25l-350 150 5 -9 4 -10 4 -9 4 -9 3 -10 3 -9 3 -9 2 -10 3 -9 2 -10 1 -9 2 -9 1 -10 0 -9 1 -9 0 -10 0 -9 -1 -10 0 -9 -1 -9 -2 -10 -1 -9 -2 -9 -3 -10 -2 -9 -3 -10 -3 -9 -3 -9 -4 -10 -4 -9 -4 -9 -5 -10 0 0 350 150z"/>
+  </g>
+  <g>
+   <path class="fil2" d="M22473 4348l-1548 0 0 -50 1548 0 25 25 -25 25zm0 -50l25 0 0 25 -25 -25zm-25 2292l0 -2267 50 0 0 2267 -50 0zm25 176l-150 -350 9 5 10 4 9 4 10 4 9 3 9 3 10 3 9 2 9 2 10 2 9 2 10 1 9 1 9 1 10 0 9 1 9 -1 10 0 9 -1 10 -1 9 -1 9 -2 10 -2 9 -2 9 -2 10 -3 9 -3 10 -3 9 -4 9 -4 10 -4 9 -5 0 0 -150 350z"/>
+  </g>
+  <g>
+   <path class="fil2" d="M22480 10914l-1548 0 0 -50 1548 0 25 25 -25 25zm25 -25l0 25 -25 0 25 -25zm0 -2267l0 2267 -50 0 0 -2267 50 0zm-25 -176l150 350 -10 -5 -9 -4 -9 -4 -10 -4 -9 -3 -9 -3 -10 -3 -9 -2 -10 -3 -9 -2 -9 -1 -10 -2 -9 -1 -9 0 -10 -1 -9 0 -10 0 -9 1 -9 0 -10 1 -9 2 -9 1 -10 2 -9 3 -10 2 -9 3 -9 3 -10 3 -9 4 -9 4 -10 4 -9 5 0 0 150 -350z"/>
+  </g>
+  <rect class="fil0 str0" x="8106" y="3503" width="2815" height="1905"/>
+  <text x="20521" y="4045"  class="fil1 fnt2">1</text>
+  <text x="19169" y="5031"  class="fil1 fnt2">0</text>
+  <text x="20521" y="10583"  class="fil1 fnt2">1</text>
+  <text x="19148" y="11550"  class="fil1 fnt2">0</text>
+  <text x="6880" y="10271"  class="fil1 fnt2">Received QPSK</text>
+  <text x="6785" y="10901"  class="fil1 fnt2">modulated signal</text>
+  <rect class="fil0 str0" x="12348" y="8124" width="1586" height="996"/>
+  <ellipse class="fil0 str0" cx="13092" cy="6492" rx="598" ry="619"/>
+  <text x="12739" y="6998"  class="fil1 fnt6">~</text>
+  <g>
+   <path class="fil2" d="M13103 7948l0 -801 50 0 0 801 -50 0zm25 176l-150 -350 9 5 9 4 10 4 9 4 9 3 10 3 9 3 10 2 9 2 9 2 10 2 9 1 9 1 10 1 9 0 10 1 9 -1 9 0 10 -1 9 -1 10 -1 9 -2 9 -2 10 -2 9 -2 9 -3 10 -3 9 -3 10 -4 9 -4 9 -4 10 -5 0 0 -150 350z"/>
+  </g>
+  <text x="12710" y="8788"  class="fil1 fnt7">+90</text>
+  <text x="13457" y="8568"  class="fil1 fnt8">o</text>
+  <text x="13761" y="6912"  class="fil1 fnt2">Carrier</text>
+  <text x="13761" y="7543"  class="fil1 fnt2">Source</text>
+  <line class="fil0 str1" x1="13461" y1="5455" x2="15832" y2= "6338" />
+  <line class="fil0 str1" x1="13397" y1="9730" x2="15039" y2= "9196" />
+  <rect class="fil0 str1" x="11173" y="718" width="13010" height="12423"/>
+  <text x="12007" y="2069"  class="fil1 fnt2">QPSK Receiver, Demodulator and Detector</text>
+  <line class="fil0 str1" x1="11223" y1="7572" x2="10349" y2= "8733" />
+  <rect class="fil0 str0" x="4119" y="6530" width="3916" height="2236"/>
+  <text x="4398" y="7497"  class="fil1 fnt2">Transmission</text>
+  <text x="5171" y="8128"  class="fil1 fnt2">Chanel</text>
+  <g>
+   <path class="fil2" d="M3992 7673l-768 0 0 -50 768 0 0 50zm176 -25l-350 150 4 -10 4 -9 4 -9 4 -10 3 -9 3 -9 3 -10 3 -9 2 -10 2 -9 1 -9 2 -10 1 -9 0 -9 1 -10 0 -9 0 -10 -1 -9 0 -9 -1 -10 -2 -9 -1 -9 -2 -10 -2 -9 -3 -10 -3 -9 -3 -9 -3 -10 -4 -9 -4 -9 -4 -10 -4 -9 0 0 350 150z"/>
+  </g>
+  <text x="1492" y="10225"  class="fil1 fnt2">Transmitted QPSK</text>
+  <text x="1701" y="10856"  class="fil1 fnt2">modulated signal</text>
+  <text x="3124" y="9394"  class="fil1 fnt2">s(</text>
+  <text x="3751" y="9394"  class="fil1 fnt2">)</text>
+  <text x="3595" y="9394"  class="fil1 fnt4">t</text>
+  <line class="fil0 str1" x1="3590" y1="7912" x2="3405" y2= "8918" />
+ </g>
+</svg>

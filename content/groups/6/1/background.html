@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Frequency Transfer</title>
+	<script src="../../../../scripts/jquery.js"></script>
+	<script src="../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Objectives</h1>
+	<p> Objective of this assignment is to illustrate two basic signal processing functions and clarify their relationship to physics and mathematics.</p>
+    <h1>Background</h1>
+	<p>In real communication systems we often need to carry out basic mathematical operations with two signals, we add and multiply them with each other. Here we illustrate main differences between these processes. Multiplication we need, for example, in Continuous wave (CW) modulation to transfer signal to another frequency band. Adder cannot be used for this, as we will see below.</p>
+    <h2>Sum of Two Signals</h2>
+    <p>Adding two signals is a linear process, which means that no new frequency component appear when two signals are added together. For example output of an ideal linear amplifier that has voltage gain <i>g</i>, becomes </p>
+    <p class="caption"><i>u</i><sub>out</sub> = <i>g u</i><sub>in</sub></p>
+	<p>If input signal <i>u</i><sub>in</sub> is a sum of two signals, here two cosine waveforms at frequencies <i>f</i><sub>1</sub> and f</i><sub>2</sub> output becomes </p>
+	<p class="caption"><i>g</i> (<i>A</i><sub>1</sub><i>cos</i>(2π<i>f</i><sub>1</sub><i>t</i>) + <i>A</i><sub>1</sub><i>cos</i>(2π<i>f</i><sub>1</sub><i>t</i>)) = <i>gA</i><sub>1</sub><i>cos</i>(2π<i>f</i><sub>1</sub><i>t</i>) + <i>gA</i><sub>1</sub><i>cos</i>(2π<i>f</i><sub>1</sub><i>t</i>)</p>
+	<p>Output signal consists of the same frequencies than input signal. No new frequency components are created. Both signals remain on their original frequency bands and no frequency transfer takes place. For this we need multiplication process.</p>
+	<h2>Product of Two Signals</h2>
+	<p>Multiplication is a nonlinear process and it creates new frequency components while original frequencies disappear. For simplicity we use here two cosine waveforms oscillating at different frequencies. A basic trigonometric formula that explains what actually happens is</p>
+	<p class="caption">cos⁡α * cos⁡β = 1/2 cos⁡(α-β)+ 1/2 cos⁡(α+β)</p>
+	<p>When we have two physical cosine waveforms at frequencies <i>f</i><sub>1</sub> and <i>f</i><sub>2</sub>, and amplitudes <i>A</i><sub>1</sub> and A</i><sub>2</sub>, we write</p>
+	<p class="caption"><i>A</i><sub>1</sub> <i>cos</i> (2π<i>f</i><sub>1</sub><i>t</i>) * <i>A</i><sub>2</sub> <i>cos</i> (2π<i>f</i><sub>2</sub><i>t</i>) = (<i>A</i><sub>1</sub> <i>A</i><sub>2</sub>)/2 <i>cos</i> (2π(<i>f</i><sub>2</sub> - <i>f</i><sub>1</sub> )<i>t</i>) + (<i>A</i><sub>1</sub> <i>A</i><sub>2</sub>)/2 <i>cos</i> (2π(<i>f</i><sub>2</sub> + <i>f</i><sub>1</sub> )<i>t</i>)</p>
+	<p>We see that original frequencies disappear and the new ones, sum and difference frequencies are produced by multiplication process.</p>
+	<p>Multiplication is the key process in Continuous Wave (CW) modulation, where high frequency (<i>f</i><sub>2</sub>) carrier wave is multiplied by a low frequency (<i>f</i><sub>1</sub>) message (representing information that we want to transmit), spectrum of the message, i.e. <i>f</i><sub>1</sub>, is transferred to both sides of the carrier wave. Then multiplication of two frequencies <i>f</i><sub>1</sub> and <i>f</i><sub>2</sub> produces two new frequencies <i>f</i><sub>2</sub> + <i>f</i><sub>1</sub>, and <i>f</i><sub>2</sub> - <i>f</i><sub>1</sub>. These are called upper and lower sidebands.</p>
+	<p>Note that <i>cos</i> (<i>α</i> - <i>β</i>) = <i>cos</i> (<i>β</i> - <i>α</i>), i.e. cosine waveform at frequency at frequency <i>f</i><sub>1</sub> - <i>f</i><sub>2</sub> is the same as at frequency <i>f</i><sub>2</sub> - <i>f</i><sub>1</sub>.</p>
+	<h2>Background Quiz</h2>
+	<p class="question">1. When cosine waveforms at frequencies 2 kHz and 3 kHz are added together, the resulting waveform contains frequencies:</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> 1 and 2 kHz
+		<br>
+		<input type="radio" name="option" value="correct"> 2 and 3 kHz
+		<br>
+		<input type="radio" name="option" value="incorrect"> 5 kHz 
+	</form>
+	<p class="question">2. When cosine waveform at frequency of 2 kHz is multiplied by a cosine waveform at 3 kHz, the resulting waveform contains frequencies:</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> 1 and 5 kHz	
+		<br>
+		<input type="radio" name="option" value="incorrect"> 1, 2 and 3 kHz
+		<br>
+		<input type="radio" name="option" value="correct"> 2 and 3 kHz
+	</form>
+	<p class="question">3. When cosine waveforms at frequencies 2 kHz and 3 kHz are added together, the resulting waveform contains new frequencies:
+	<form>
+		<input type="radio" name="option" value="incorrect"> 5 kHz
+		<br>
+		<input type="radio" name="option" value="correct"> none
+		<br>
+		<input type="radio" name="option" value="incorrect"> 4 and 6 kHz
+	</form>
+	<p class="question">4. When cosine waveform at frequency of 3 kHz is multiplied by a cosine waveform at 2 kHz, the resulting waveform contains new frequencies:
+	<form>
+		<input type="radio" name="option" value="correct"> 1 and 5 kHz
+		<br>
+		<input type="radio" name="option" value="incorrect"> 1.5 kHz
+		<br>
+		<input type="radio" name="option" value="incorrect"> 4 and 6 kHz
+	</form>
+	<p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">Congratulation, you have passed the test and may start Exercise 1: Signal wavefom and Spectrum.</p>
+	<p class="failure">Test failed. Consider again answers that are not correct</p>
+    <button>Submit your answers</button>
+  </body>
+</html>

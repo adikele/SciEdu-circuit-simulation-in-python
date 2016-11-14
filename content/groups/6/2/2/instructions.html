@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sivun otsikko (ei nay)</title>
+	<script src="../../../../../scripts/jquery.js"></script>
+	<script src="../../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Exercise 2. Amplitude Shift Keying (ASK) Modulator (with Full Carrier)</h1>
+	<p>Digital amplitude modulation is known as ASK. Here we study binary ASK. Build up ASK Modulator according to the figure below.</p>
+	<img src="images/Exercise2_ASK_Modulator.svg" alt="Exercise2_ASK_Modulator">
+	<p class="caption">ASK-Modulator</p>
+	<p class="question">1. Which output corresponds to the original information data to be transmitted with the help of the carrier?</p>
+	<form>
+		<input type="radio" name="option" value="correct">Signal Generator
+		<input type="radio" name="option" value="incorrect">Adder
+		<input type="radio" name="option" value="incorrect">Multiplier
+	</form
+	<p class="question">2. Which output correspond to the modulated signal to be transmitted to transmission channel?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Signal Generator
+		<input type="radio" name="option" value="incorrect">Adder
+		<input type="radio" name="option" value="correct">Multiplier
+	</form>
+	<p class="question">2.  Set SigGen producing carrier waveform to carrier mode and SigGen generating information signal to rectangular mode with amplitude of 1 V and frequency of 10 Hz. What is the period of the output waveform of the signal generator?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">1 sec.
+		<input type="radio" name="option" value="incorrect">100 ms.
+		<input type="radio" name="option" value="correct">10 ms.
+	</form>
+	<p class="question">3. Assume that high level corresponds to binary “1” and low level to binary “0”. The bit rate would then be:</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">10 bps
+		<input type="radio" name="option" value="correct">20 bps
+		<input type="radio" name="option" value="incorrect">40 bps
+	</form>
+	<p class="question">4. Look at the output of the modulator with oscilloscope. Envelope of the carrier follows</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Cosine waveform
+		<input type="radio" name="option" value="incorrect">Sawtooth waveform
+		<input type="radio" name="option" value="correct">Rectangular waveform
+	</form>
+	<p class="question">5. What is the approximate duration of each radio signal burst?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">1 sec.
+		<input type="radio" name="option" value="incorrect">100 msec.
+		<input type="radio" name="option" value="correct">50 msec.
+	</form>
+	<p class="question">6. Change SigGen frequency to 5 Hz. What is now duration of each radio burst?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">200 msec
+		<input type="radio" name="option" value="correct">100 msec	
+		<input type="radio" name="option" value="incorrect">50 msec.
+	</form>
+	<p class="question">7. When DC source value is 1 V and rectangular waveform amplitude 1 V the modulation index is </p>
+	<form>
+		<input type="radio" name="option" value="correct">100 %
+		<input type="radio" name="option" value="incorrect">50 %
+		<input type="radio" name="option" value="incorrect">25 %
+	</form>
+	<p class="question">7. When DC source value is 1 V and rectangular waveform amplitude 1 V the modulation index is </p>
+	<form>
+		<input type="radio" name="option" value="correct">100 %
+		<input type="radio" name="option" value="incorrect">50 %
+		<input type="radio" name="option" value="incorrect">25 %
+	</form>
+	<p class="question">8. Reduce rectangular waveform amplitude to 0.5 V. What is now the modulation index?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">100 %
+		<input type="radio" name="option" value="incorrect">50 %
+		<input type="radio" name="option" value="correct">25 %
+	</form>
+	<p class="question">9. Look at the spectrum of the modulating signal at the output of the signal generator when its frequency is 5Hz. Spectrum consists of </p>
+	<form>
+		<input type="radio" name="option" value="correct">Harmonics of 5 Hz
+		<input type="radio" name="option" value="incorrect">5 Hz only
+		<input type="radio" name="option" value="incorrect">Harmonics of 10 Hz
+	</form>
+	<p class="question">10. Set modulation index back to 100%. Look at the spectrum of the modulated signal. It contains</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Carrier and many sideband components
+		<input type="radio" name="option" value="incorrect">Carrier and one sideband component on its both sides
+		<input type="radio" name="option" value="correct">Carrier component only
+	</form>
+    <p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">You passed test. You may now start Exercise 2: Impact of LPF on Signal Shape and Spectrum</p>	
+    <p class="failure">Test failed. Consider again answers tat are not correct</p>
+    <button>Submit your answers</button>  
+  </body>
+</html>

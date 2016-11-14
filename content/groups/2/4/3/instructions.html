@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sivun otsikko (ei nay)</title>
+	<script src="../../../../../scripts/jquery.js"></script>
+	<script src="../../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Exercise 3. White Noise in Time and Frequency Domain</h1>
+	<p>Make a block diagram as in Figure 5 where Signal Generator is set to Noise mode.</p>
+	<img src="images/NoiseFigure5.svg" alt="NoiseFigure5">
+	<p class="caption">Figure 5 Noise in Time and Frequency domain</p>
+	<p class="question">1. Use the oscilloscope to measure the noise signal at the output of the signal generator. What kind of signal it is? </p>
+	<form>
+		<input type="radio" name="option" option="incorrect" > Constant voltage
+		<input type="radio" name="option" option="correct"> Random voltage
+		<input type="radio" name="option" option="incorrect"> Sine wave
+	</form>
+	<p class="question">2. Measure the input signal with spectrum analyser. How does the spectrum of the noise signal look like?</p>
+   <form>
+		<input type="radio" name="option" option="correct" > Spectrum is random and wide.
+		<input type="radio" name="option" option="incorrect"> Spectrum is constant.
+		<input type="radio" name="option" option="incorrect"> Spectrum is narrow and constant.
+	</form>
+	<p class="question">3. Set cut of frequency of LPF to 20 kHz. Look at the output of the filter with oscilloscope. What has happened to the noise signal shape because of filtering?</p>
+    <form>
+		<input type="radio" name="option" option="incorrect" > It is changed to sine wave.
+		<input type="radio" name="option" option="correct"> Rapid changes have disappeared.
+		<input type="radio" name="option" option="incorrect"> It is changed to triangle wave.
+	</form>
+	<p class="question">4. Measure output signal of the low pass filter with the spectrum analyser. What has happened to the spectrum of noise?</p>
+    <form>
+		<input type="radio" name="option" option="incorrect" > Spectrum remains the same as the LPF input spectrum.
+		<br>
+		<input type="radio" name="option" option="incorrect"> Output spectrum is wider than at the input spectrum.
+		<br>
+		<input type="radio" name="option" option="correct"> Output spectrum is narrow containing less high frequency content.
+	</form>
+	<p class="question">5. In general, what happens to signal shape when high frequency content is removed?</p>
+    <form>
+		<input type="radio" name="option" option="correct" > It cannot change as rapidly because high frequencies are needed for rapid changes.
+		<br>
+		<input type="radio" name="option" option="incorrect"> It changes more rapidly because high frequencies are removed.
+		<br>
+		<input type="radio" name="option" option="incorrect"> The shape of the signal remains the same.
+	</form>
+	<p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">Test of final Exercise passed. Congratulations, you have passed Assignment: Signals in Time and Frequncy Domain</p>	
+    <p class="failure">Test failed. Consider again answers that are not correct</p>	
+        <button>Submit your answers</button>
+  </body>
+</html>

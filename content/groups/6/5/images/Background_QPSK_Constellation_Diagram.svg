@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="159mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 29700 15900"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:50}
+    .str1 {stroke:#2B2A29;stroke-width:20}
+    .str2 {stroke:black;stroke-width:7.62}
+    .str3 {stroke:black;stroke-width:49.39;stroke-linecap:round;stroke-linejoin:round}
+    .str4 {stroke:#2B2A29;stroke-width:25;stroke-dasharray:50.000000 75.000000}
+    .fil0 {fill:none}
+    .fil4 {fill:none;fill-rule:nonzero}
+    .fil2 {fill:#2B2A29}
+    .fil1 {fill:#2B2A29}
+    .fil5 {fill:black}
+    .fil3 {fill:#2B2A29;fill-rule:nonzero}
+    .fnt0 {font-weight:normal;font-size:564.44px;font-family:'Arial'}
+    .fnt6 {font-weight:normal;font-size:635px;font-family:'Arial'}
+    .fnt2 {font-style:italic;font-weight:normal;font-size:564.44px;font-family:'Arial'}
+    .fnt4 {font-style:italic;font-weight:normal;font-size:635px;font-family:'Arial'}
+    .fnt1 {font-weight:normal;font-size:282.22px;font-family:'Arial';baseline-shift:sub}
+    .fnt5 {font-weight:normal;font-size:317.5px;font-family:'Arial';baseline-shift:sub}
+    .fnt3 {font-style:italic;font-weight:normal;font-size:282.22px;font-family:'Arial';baseline-shift:sub}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <line class="fil0 str0" x1="5000" y1="8450" x2="15000" y2= "8450" />
+  <text x="10420" y="3085"  class="fil1 fnt0">Q</text>
+  <text x="10420" y="3715"  class="fil1 fnt0">(Quadrature)</text>
+  <ellipse class="fil2 str1" cx="13000" cy="5450" rx="300" ry="318"/>
+  <ellipse class="fil2 str1" cx="7000" cy="5450" rx="300" ry="318"/>
+  <ellipse class="fil2 str1" cx="7000" cy="11450" rx="300" ry="318"/>
+  <ellipse class="fil2 str1" cx="13000" cy="11450" rx="300" ry="318"/>
+  <line class="fil0 str0" x1="10000" y1="3450" x2="10000" y2= "13450" />
+  <text x="13644" y="4510"  class="fil1 fnt0">s</text>
+  <text x="13926" y="4623"  class="fil1 fnt1">1</text>
+  <text x="13644" y="5140"  class="fil1 fnt0">11</text>
+  <text x="6292" y="3990"  class="fil1 fnt0">s</text>
+  <text x="6574" y="4103"  class="fil1 fnt1">2</text>
+  <text x="6292" y="4621"  class="fil1 fnt0">10</text>
+  <text x="13451" y="10366"  class="fil1 fnt0">s</text>
+  <text x="13733" y="10479"  class="fil1 fnt1">4</text>
+  <text x="13451" y="10997"  class="fil1 fnt0">01</text>
+  <text x="6096" y="10286"  class="fil1 fnt0">s</text>
+  <text x="6378" y="10399"  class="fil1 fnt1">3</text>
+  <text x="6096" y="10917"  class="fil1 fnt0">00</text>
+  <g>
+   <path class="fil3" d="M4068 6049l107 249 0 0 -7 -3 -7 -3 -6 -3 -7 -3 -7 -2 -6 -2 -7 -2 -7 -2 -6 -2 -7 -1 -7 -1 -6 -1 -7 -1 -7 0 -6 -1 -7 0 -7 0 -6 1 -7 0 -7 1 -6 1 -7 1 -7 1 -6 2 -7 2 -7 2 -6 2 -7 2 -7 3 -6 3 -7 3 -7 3 107 -249zm-12 4672l0 -4547 25 0 0 4547 -25 0zm12 125l-107 -249 7 3 7 3 6 3 7 3 7 2 6 2 7 2 7 2 6 2 7 1 7 1 6 1 7 1 7 0 6 1 7 0 7 0 6 -1 7 0 7 -1 6 -1 7 -1 7 -1 6 -2 7 -2 7 -2 6 -2 7 -2 7 -3 6 -3 7 -3 7 -3 0 0 -107 249z"/>
+  </g>
+  <g>
+   <path class="fil3" d="M7586 14484l249 -107 0 0 -4 7 -3 6 -2 7 -3 7 -2 6 -3 7 -2 7 -1 6 -2 7 -1 7 -1 6 -1 7 -1 7 -1 6 0 7 0 7 0 6 0 7 1 7 1 6 1 7 1 7 1 6 2 7 1 7 2 6 3 7 2 7 3 6 2 7 3 7 4 6 -249 -106zm4672 12l-4547 0 0 -25 4547 0 0 25zm125 -12l-249 106 3 -6 3 -7 3 -7 2 -6 3 -7 2 -7 2 -6 2 -7 1 -7 2 -6 1 -7 1 -7 0 -6 1 -7 0 -7 0 -6 0 -7 0 -7 -1 -6 0 -7 -1 -7 -1 -6 -2 -7 -1 -7 -2 -6 -2 -7 -2 -7 -3 -6 -2 -7 -3 -7 -3 -6 -3 -7 0 0 249 107z"/>
+  </g>
+  <text x="12783" y="14725"  class="fil1 fnt0">1</text>
+  <text x="6786" y="14725"  class="fil1 fnt0">0</text>
+  <line class="fil0 str1" x1="7010" y1="4230" x2="7857" y2= "3145" />
+  <text x="3720" y="2609"  class="fil1 fnt0">Odd the</text>
+  <text x="3720" y="3239"  class="fil1 fnt0">first bit</text>
+  <text x="7126" y="2129"  class="fil1 fnt0">Even, the</text>
+  <text x="7126" y="2760"  class="fil1 fnt0">second bit</text>
+  <line class="fil0 str1" x1="6038" y1="4434" x2="4671" y2= "3534" />
+  <text x="2471" y="8277"  class="fil1 fnt0">Odd</text>
+  <text x="2471" y="8908"  class="fil1 fnt0">bit</text>
+  <text x="3929" y="5694"  class="fil1 fnt0">1</text>
+  <text x="3886" y="11793"  class="fil1 fnt0">0</text>
+  <g>
+   <path class="fil3" d="M13474 5694l6 -29 157 -59 12 33 -156 60 6 -30 -25 25zm0 0l-19 -19 25 -10 -6 29zm131 107l-13 12 -118 -119 25 -25 118 119 -12 13zm4606 918l-4700 -1019 5 -24 4701 1019 -6 24zm36 10l-12 -33 -7 29 -117 -119 25 -25 118 119 -7 29zm0 0l7 -29 19 20 -26 9zm-162 43l-7 -17 157 -59 12 33 -156 59 -6 -16z"/>
+  </g>
+  <g>
+   <line class="fil4 str2" x1="18937" y1="8555" x2="21777" y2= "8555" />
+   <polygon id="1" class="fil5" points="19253,8397 18937,8555 19253,8713 19095,8555 "/>
+   <polygon id="2" class="fil5" points="21460,8397 21777,8555 21460,8713 21619,8555 "/>
+  </g>
+  <path class="fil0 str3" d="M18932 6800c32,-759 66,-1138 98,-1138 32,0 66,761 98,1138 32,377 62,1135 98,1135 37,0 78,-379 122,-1135"/>
+  <path class="fil0 str3" d="M19348 6800c32,-759 66,-1138 98,-1138 32,0 66,761 98,1138 32,377 64,1135 98,1135 34,0 78,-379 119,-1135"/>
+  <path class="fil0 str3" d="M19775 6786c32,-756 68,-1135 100,-1135 32,0 66,758 98,1135 32,377 64,1135 101,1135 37,0 78,-379 121,-1135"/>
+  <path class="fil0 str3" d="M20195 6786c32,-756 66,-1135 98,-1135 32,0 64,758 96,1135 32,377 62,1135 96,1135 34,0 76,-379 119,-1135"/>
+  <path class="fil0 str3" d="M20604 6786c32,-756 64,-1135 96,-1135 32,0 64,758 96,1135 32,377 64,1135 98,1135 34,0 75,-379 117,-1135"/>
+  <path class="fil0 str3" d="M21011 6786c32,-756 68,-1135 100,-1135 32,0 69,758 101,1135 32,377 61,1135 98,1135 36,0 80,-379 123,-1135"/>
+  <path class="fil0 str3" d="M21451 6790c32,-772 69,-1159 101,-1159 32,0 68,774 100,1159"/>
+  <text x="20062" y="9276"  class="fil1 fnt2">T</text>
+  <g>
+   <path class="fil3" d="M23760 6770l-4828 42 0 -25 4827 -42 1 25zm125 -14l-248 109 3 -7 3 -7 3 -6 2 -7 2 -7 3 -6 1 -7 2 -7 2 -6 1 -7 1 -7 1 -6 1 -7 0 -7 0 -6 0 -7 0 -7 0 -6 -1 -7 -1 -7 -1 -6 -1 -7 -1 -7 -2 -6 -2 -7 -2 -7 -2 -6 -2 -7 -3 -7 -3 -6 -3 -7 -3 -7 0 0 250 105z"/>
+  </g>
+  <text x="9115" y="15283"  class="fil1 fnt0">Even bit</text>
+  <text x="17224" y="3697"  class="fil1 fnt0">Symbol, a carrier burst</text>
+  <text x="17224" y="4328"  class="fil1 fnt0">with phase shift of 45 degrees, </text>
+  <text x="17224" y="4959"  class="fil1 fnt0">duration </text>
+  <text x="19922" y="4959"  class="fil1 fnt0">and amplitude</text>
+  <text x="19421" y="4959"  class="fil1 fnt2">T </text>
+  <text x="23468" y="4959"  class="fil1 fnt2"> A</text>
+  <text x="23981" y="5072"  class="fil1 fnt3">c</text>
+  <g>
+   <path class="fil3" d="M9729 8163l-21 22 -164 -32 7 -35 164 32 -21 21 35 -8zm0 0l6 27 -27 -5 21 -22zm-55 -159l17 -4 38 163 -35 8 -37 -163 17 -4zm-2232 -2055l2258 2190 -17 18 -2258 -2190 17 -18zm-25 -27l-7 35 21 -22 37 163 -34 8 -38 -163 21 -21zm0 0l-21 21 -6 -27 27 6zm161 49l-4 18 -164 -32 7 -35 164 32 -3 17z"/>
+  </g>
+  <text x="8311" y="6639"  class="fil1 fnt2">A</text>
+  <text x="8688" y="6752"  class="fil1 fnt1">c</text>
+  <text x="22472" y="6389"  class="fil1 fnt4">A</text>
+  <text x="22896" y="6516"  class="fil1 fnt5">c</text>
+  <g>
+   <path class="fil3" d="M22384 5734l-172 2 85 -133 87 131zm-173 -130l-1 -18 172 -2 0 36 -171 2 0 -18zm84 1100l-10 -973 25 0 10 973 -25 0zm98 -5l-84 133 -87 -131 171 -2zm-170 134l0 -18 171 -2 1 36 -172 2 0 -18z"/>
+  </g>
+  <line class="fil0 str4" x1="18628" y1="5688" x2="22684" y2= "5617" />
+  <text x="23920" y="7320"  class="fil1 fnt2">t</text>
+  <text x="14025" y="9062"  class="fil1 fnt0">I (In-phase)</text>
+  <text x="12788" y="7380"  class="fil1 fnt2">A</text>
+  <text x="13305" y="7380"  class="fil1 fnt2">/</text>
+  <text x="13164" y="7493"  class="fil1 fnt1">c</text>
+  <text x="13462" y="7380"  class="fil1 fnt0">sqr(2)</text>
+  <g>
+   <path class="fil3" d="M12470 5607l107 249 0 0 -7 -4 -7 -3 -6 -2 -7 -3 -7 -2 -6 -3 -7 -2 -7 -1 -6 -2 -7 -1 -7 -2 -6 0 -7 -1 -7 -1 -6 0 -7 0 -7 0 -6 0 -7 1 -7 1 -6 0 -7 2 -7 1 -6 2 -7 1 -7 2 -6 3 -7 2 -7 3 -6 2 -7 3 -7 4 107 -249zm-12 2617l0 -2492 25 0 0 2492 -25 0zm12 125l-107 -249 7 3 7 3 6 3 7 3 7 2 6 2 7 2 7 2 6 2 7 1 7 1 6 1 7 1 7 0 6 1 7 0 7 0 6 -1 7 0 7 -1 6 -1 7 -1 7 -1 6 -2 7 -2 7 -2 6 -2 7 -2 7 -3 6 -3 7 -3 7 -3 0 0 -107 249z"/>
+  </g>
+  <text x="7152" y="13016"  class="fil1 fnt4">A</text>
+  <text x="7734" y="13016"  class="fil1 fnt4">/</text>
+  <text x="7576" y="13143"  class="fil1 fnt5">c</text>
+  <text x="7911" y="13016"  class="fil1 fnt6">sqr(2)</text>
+  <g>
+   <path class="fil3" d="M7029 12058l249 -107 0 0 -3 7 -3 7 -3 6 -3 7 -2 7 -2 6 -2 7 -2 7 -2 6 -1 7 -1 7 -1 6 -1 7 0 7 -1 6 0 7 0 7 1 6 0 7 1 7 1 6 1 7 1 7 2 6 2 7 2 7 2 6 2 7 3 7 3 6 3 7 3 7 -249 -107zm2846 12l-2721 0 0 -25 2721 0 0 25zm125 -12l-249 107 3 -7 3 -7 3 -6 3 -7 2 -7 2 -6 2 -7 2 -7 2 -6 1 -7 1 -7 1 -6 1 -7 0 -7 1 -6 0 -7 0 -7 -1 -6 0 -7 -1 -7 -1 -6 -1 -7 -1 -7 -2 -6 -2 -7 -2 -7 -2 -6 -2 -7 -3 -7 -3 -6 -3 -7 -3 -7 0 0 249 107z"/>
+  </g>
+ </g>
+</svg>

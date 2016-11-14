@@ -1,0 +1,13 @@
+pos: (0.0, 0.0)
+connects: [('SigGen.0', 'Out', 'FFT.0', 'In'), ('LowPassFilter.0', 'Out', 'FFT.1', 'In'), ('FFT.0', 'Out', 'Oscilloscope.1', 'In1'), ('FFT.1', 'Out', 'Oscilloscope.1', 'In2'), ('SigGen.0', 'Out', 'Oscilloscope.0', 'In1'), ('SigGen.0', 'Out', 'LowPassFilter.0', 'In'), ('LowPassFilter.0', 'Out', 'Oscilloscope.0', 'In2')]
+terminals:
+bypass: False
+inputNode:
+    terminals:
+    pos: (0.0, 0.0)
+    bypass: False
+nodes: [{'state': {'pos': (-319.5329845197489, 57.4622356007726), 'bypass': False, 'ctrl': {'f-3dB': 50.0}}, 'pos': (-319.5329845197489, 57.4622356007726), 'class': 'LowPassFilter', 'name': 'LowPassFilter.0'}, {'state': {'pos': (-558.2321276439992, -51.08732401002458), 'bypass': False, 'ctrl': {'waveform': u'cosine', 'frequency kHz': 50.0, 'amplitude source': u'None', 'amplitude V': 1.0, 'waveform source': u'None', 'frequency source': u'None', 'sawtooth shape': 1.0}}, 'pos': (-558.2321276439992, -51.08732401002458), 'class': 'SigGen', 'name': 'SigGen.0'}, {'state': {'pos': (449.22918023446516, 57.767726605649344), 'bypass': False}, 'pos': (449.22918023446516, 57.767726605649344), 'class': 'Oscilloscope', 'name': 'Oscilloscope.1'}, {'state': {'pos': (-146.8414283247547, -32.63076102813315), 'bypass': False}, 'pos': (-146.8414283247547, -32.63076102813315), 'class': 'Oscilloscope', 'name': 'Oscilloscope.0'}, {'state': {'pos': (51.39611275292259, 77.8476290652855), 'bypass': False, 'ctrl': {}}, 'pos': (51.39611275292259, 77.8476290652855), 'class': 'FFT', 'name': 'FFT.1'}, {'state': {'pos': (48.886124945468055, -28.826852751531874), 'bypass': False, 'ctrl': {}}, 'pos': (48.886124945468055, -28.826852751531874), 'class': 'FFT', 'name': 'FFT.0'}]
+outputNode:
+    terminals:
+    pos: (0.0, 0.0)
+    bypass: False

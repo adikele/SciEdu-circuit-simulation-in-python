@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sivun otsikko (ei nay)</title>
+	<script src="../../../../../scripts/jquery.js"></script>
+	<script src="../../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Exercise 2. Impact of Low Pass Filter (LPF) on Signal shape and spectrum</h1>
+	<p>Make a block diagram in Figure 4.</p>
+	<img src="images/ImpctOfLPFFigure4.svg" alt="ImpctOfLPFFigure4">
+	<p class="caption">Figure 4 Impact of LPF to Signal shape and spectrum</p>
+	<p class="question">1. Connect inputs of oscilloscope to the output of the Signal Generator and the other to the output of LPF. Set Cut-off frequency of LPF to 10 kHz and frequency of signal generator to 5 kHz. When signal is a cosine waveform, output waveform of LPF is</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > Much stronger signal
+		<br>
+		<input type="radio" name="option" value="incorrect"> Much lower frequency
+		<br>
+		<input type="radio" name="option" value="correct"> Quite the same as at the input
+	</form>
+	<p class="question">2. Increase signal frequency slowly to 8-10-15… kHz. What starts to happen when frequency is around 10 kHz and you still increase it?</p>
+   <form>
+		<input type="radio" name="option" value="correct" > Output signal amplitude decreases
+		<br>
+		<input type="radio" name="option" value="incorrect"> Output signal amplitude increases
+		<br>
+		<input type="radio" name="option" value="incorrect"> Input signal amplitude decreases
+	</form>
+	<p class="question">3. At cut-off frequency signal level is decreased by 3 dB that is 20*log10 (Vout /Vin ) dB = -3 dB.
+     What is Vout /Vin at cut-off frequency approximately?</p>
+    <form>
+		<input type="radio" name="option" value="incorrect" > 0.5
+		<input type="radio" name="option" value="incorrect"> 0.333
+		<input type="radio" name="option" value="correct"> 0.707
+	</form>
+	<p class="question">4. Change signal generator to rectangular waveform at frequency of 5 kHz. Use oscilloscope to compare signal shape at the input and output of LPF. What do you see?</p>
+    <form>
+		<input type="radio" name="option" value="incorrect" > LPF does not change signal shape
+		<br>
+		<input type="radio" name="option" value="incorrect"> Output contains more rapid changes than input signal
+		<br>
+		<input type="radio" name="option" value="correct"> Output signal does not change as rapidly as input signal
+	</form>
+	<p class="question">5. Use Spectrum analyser to compare spectrum of rectangular waveform at the input and output of LPF. What do you see?</p>
+    <form>
+		<input type="radio" name="option" value="correct" > LPF attenuates or removes high frequency components
+		<br>
+		<input type="radio" name="option" value="incorrect"> LPF does not change spectrum
+		<br>
+		<input type="radio" name="option" value="incorrect"> LPF removes low frequency components
+	</form>
+	<p class="question">6. When high frequency components are attenuated, the signal in time domain:</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > Does not change components
+		<br>
+		<input type="radio" name="option" value="incorrect"> Will contain more rapid changes
+		<br>
+		<input type="radio" name="option" value="correct"> Becomes more smooth, i.e. does not change as rapidly
+	</form>
+	<p class="question">7. When you increase frequency of the rectangular waveform to 20 kHz</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > Signal approaches sawtooth or triangular waveform
+		<br>
+		<input type="radio" name="option" value="correct"> Signal approaches sine or cosine waveform
+		<br>
+		<input type="radio" name="option" value="incorrect"> Signal shape remains the same but amplitude is reduced
+	</form>
+	<p class="question">8. This happens because</p>
+	<form>
+		<input type="radio" name="option" value="correct" > LPF removes higher harmonic frequencies and only fundamental frequency component remains.
+		<br>
+		<input type="radio" name="option" value="incorrect">LPF removes all low frequency components and only fundamental frequency component remains.
+		<br>
+		<input type="radio" name="option" value="incorrect"> LPF removes fundamental frequency and higher frequency components remain.
+	</form>
+	<p class="question">9. Set signal generator to Cosine waveform and cut-off frequency of LPF to 20 kHz. Compare signal amplitude at output of LPF at frequencies 1 kHz and 20 kHz. At 20 kHz amplitude is compared to 1 kHz amplitude approximately</p>
+   <form>
+		<input type="radio" name="option" value="incorrect" > The same
+		<input type="radio" name="option" value="correct"> 0.7 times 1 kHz amplitude 
+		<input type="radio" name="option" value="incorrect"> half of 1 kHz amplitude
+	</form>
+	<p class="question">10. This corresponds to that signal level is reduced by </p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > 0 dB
+		<input type="radio" name="option" value="correct"> 3 dB
+		<input type="radio" name="option" value="incorrect"> 6 dB
+	</form>
+	<p class="question">11. Compare input and output amplitude of LPF at 20 kHz. At output it is reduced approximately by factor of</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > 0.2
+		<input type="radio" name="option" value="correct"> 0.7
+		<input type="radio" name="option" value="incorrect"> 0.9
+	</form>
+	<p class="question">12. Increase frequency to 40 kHz. Now output compared to input is reduced approximately by factor of </p>
+	<form>
+		<input type="radio" name="option" value="correct" > 0.5
+		<input type="radio" name="option" value="incorrect"> 0.7
+		<input type="radio" name="option" value="incorrect"> 0.9
+	</form>
+	<p class="question">13. This correspond to that signal level is reduced by</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > 3 dB
+		<input type="radio" name="option" value="correct"> 6 dB
+		<input type="radio" name="option" value="incorrect"> 12 dB
+	</form>
+	<p class="question">14. Increase frequency to 80 kHz. Now output compared to input is reduced approximately by factor of</p>
+	<form>
+		<input type="radio" name="option" value="correct" > 0.25
+		<input type="radio" name="option" value="incorrect"> 0.5
+		<input type="radio" name="option" value="incorrect"> 0.125
+	</form>
+	<p class="question">15. This correspond to that signal level is reduced by</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > 3 dB
+		<input type="radio" name="option" value="incorrect"> 6 dB
+		<input type="radio" name="option" value="correct"> 12 dB
+	</form>
+	<p class="question">16. When frequency is doubled above cut-off frequency the signal level is reduced by approximately</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > 3 dB
+		<input type="radio" name="option" value="correct"> 6 dB
+		<input type="radio" name="option" value="incorrect"> 12 dB
+	</form>
+	<p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">Test passed. Go to Exercise 3: White Noise in Time and Frequency Domain</p>	
+    <p class="failure">Test failed. Consider again answers that are not correct</p>
+        <button>Submit your answers</button>
+ 
+  </body>
+</html>

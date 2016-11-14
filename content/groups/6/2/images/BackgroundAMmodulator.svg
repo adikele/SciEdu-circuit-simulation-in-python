@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="150mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 29700 15000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str3 {stroke:black;stroke-width:35.28}
+    .str0 {stroke:black;stroke-width:49.39;stroke-linecap:round;stroke-linejoin:round}
+    .str2 {stroke:black;stroke-width:49.99;stroke-linecap:round;stroke-linejoin:round}
+    .str1 {stroke:black;stroke-width:49.39;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:98.780000 98.780000}
+    .fil1 {fill:none}
+    .fil3 {fill:black}
+    .fil0 {fill:white}
+    .fil2 {fill:black;fill-rule:nonzero}
+    .fnt2 {font-weight:normal;font-size:561.16px;font-family:'Arial'}
+    .fnt1 {font-weight:normal;font-size:561.76px;font-family:'Arial'}
+    .fnt8 {font-weight:normal;font-size:561.83px;font-family:'Arial'}
+    .fnt9 {font-weight:normal;font-size:562.19px;font-family:'Arial'}
+    .fnt3 {font-weight:normal;font-size:562.36px;font-family:'Arial'}
+    .fnt0 {font-weight:normal;font-size:564.16px;font-family:'Arial'}
+    .fnt6 {font-weight:normal;font-size:564.44px;font-family:'Arial'}
+    .fnt7 {font-weight:normal;font-size:632.07px;font-family:'Arial'}
+    .fnt4 {font-style:italic;font-weight:normal;font-size:562.36px;font-family:'Arial'}
+    .fnt5 {font-style:italic;font-weight:normal;font-size:281.18px;font-family:'Arial';baseline-shift:sub}
+   ]]>
+  </style>
+ </defs>
+ <rect class="fil0" width="29700" height="15000"/>
+ <g id="Layer_x0020_1_x0020_">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <line class="fil1 str0" x1="1668" y1="3464" x2="1668" y2= "6756" />
+  <g>
+   <path class="fil2" d="M1668 5189c-13,0 -24,-11 -24,-25 0,-13 11,-24 24,-24l0 49zm4998 0l-4998 0 0 -49 4998 0 0 49zm-199 -125l199 100 -199 101 99 -101 -99 -100zm199 76c14,0 25,11 25,24 0,14 -11,25 -25,25l0 -49z"/>
+  </g>
+  <path class="fil1 str0" d="M1668 5056c318,-920 641,-1382 958,-1382 318,0 638,922 956,1382 318,460 602,1380 956,1380 354,0 746,-460 1170,-1380"/>
+  <line class="fil1 str0" x1="8514" y1="9433" x2="8514" y2= "12661" />
+  <g>
+   <path class="fil2" d="M8514 11119c-14,0 -25,-11 -25,-24 0,-14 11,-25 25,-25l0 49zm7924 0l-7924 0 0 -49 7924 0 0 49zm-200 -125l200 101 -200 100 100 -100 -100 -101zm200 76c14,0 25,11 25,25 0,13 -11,24 -25,24l0 -49z"/>
+  </g>
+  <path class="fil1 str0" d="M8514 11099c36,-902 77,-1353 115,-1353 38,0 79,904 117,1353 38,449 74,1350 117,1350 43,0 93,-450 142,-1350"/>
+  <path class="fil1 str0" d="M9005 11099c39,-902 79,-1353 118,-1353 38,0 76,904 115,1353 38,449 74,1350 117,1350 43,0 92,-450 142,-1350"/>
+  <path class="fil1 str0" d="M9497 11099c38,-902 77,-1353 115,-1353 38,0 76,904 115,1353 38,449 72,1350 115,1350 43,0 90,-450 142,-1350"/>
+  <path class="fil1 str0" d="M9984 11099c36,-902 76,-1353 115,-1353 38,0 79,904 117,1353 38,449 74,1350 117,1350 43,0 93,-450 142,-1350"/>
+  <path class="fil1 str0" d="M10500 11099c38,-902 79,-1353 117,-1353 39,0 79,904 118,1353 38,449 72,1350 115,1350 42,0 92,-450 144,-1350"/>
+  <path class="fil1 str0" d="M10994 11099c38,-902 76,-1353 115,-1353 38,0 76,904 115,1353 38,449 74,1350 115,1350 40,0 90,-450 140,-1350"/>
+  <path class="fil1 str0" d="M11479 11099c38,-902 78,-1353 117,-1353 38,0 76,904 115,1353 38,449 74,1350 117,1350 43,0 92,-450 142,-1350"/>
+  <path class="fil1 str0" d="M11970 11099c38,-902 79,-1353 117,-1353 39,0 79,904 117,1353 39,449 73,1350 115,1350 43,0 93,-450 145,-1350"/>
+  <path class="fil1 str0" d="M12482 11079c38,-900 79,-1351 117,-1351 38,0 81,902 120,1351 38,448 74,1352 117,1352 43,0 92,-450 144,-1352"/>
+  <path class="fil1 str0" d="M12980 11079c38,-900 77,-1351 115,-1351 38,0 77,902 115,1351 38,448 72,1352 115,1352 43,0 90,-450 142,-1352"/>
+  <path class="fil1 str0" d="M13467 11079c38,-900 77,-1351 115,-1351 38,0 77,902 115,1351 38,448 74,1352 115,1352 41,0 90,-450 140,-1352"/>
+  <path class="fil1 str1" d="M13952 11079c38,-900 79,-1351 117,-1351 38,0 81,902 119,1351 39,448 75,1352 118,1352 43,0 92,-450 144,-1352"/>
+  <line class="fil1 str0" x1="19554" y1="3265" x2="19554" y2= "9242" />
+  <g>
+   <path class="fil2" d="M19554 6331c-13,0 -24,-11 -24,-24 0,-14 11,-25 24,-25l0 49zm7925 27l-7925 -27 0 -49 7925 27 0 49zm-199 -124l199 100 -201 98 101 -99 -99 -99zm199 75c14,0 25,11 25,25 0,13 -12,24 -25,24l0 -49z"/>
+  </g>
+  <path class="fil1 str0" d="M19554 6304c39,-908 79,-1364 118,-1364 38,0 76,911 115,1364 38,454 74,1364 117,1364 43,0 92,-455 142,-1364"/>
+  <path class="fil1 str0" d="M20046 6253c38,-1901 79,-2852 117,-2852 38,0 79,1902 117,2852 39,949 72,2854 115,2854 43,0 93,-952 145,-2854"/>
+  <path class="fil1 str0" d="M20540 6253c36,-1552 76,-2329 115,-2329 38,0 78,1553 117,2329 38,775 74,2331 117,2331 43,0 92,-778 142,-2331"/>
+  <path class="fil1 str0" d="M21031 6304c36,-1100 77,-1652 115,-1652 38,0 79,1102 117,1652 39,550 75,1653 118,1653 42,0 92,-552 142,-1653"/>
+  <path class="fil1 str0" d="M21547 6253c39,-505 79,-758 118,-758 38,0 78,505 117,758 38,252 72,757 115,757 43,0 92,-252 144,-757"/>
+  <path class="fil1 str0" d="M22041 6307c36,-190 77,-287 115,-287 38,0 79,192 117,287 39,94 75,288 118,288 42,0 92,-97 142,-288"/>
+  <path class="fil1 str0" d="M22533 6304c38,-121 76,-182 115,-182 38,0 76,121 115,182 38,61 74,183 114,183 41,0 91,-61 140,-183"/>
+  <path class="fil1 str0" d="M23017 6358c39,-365 79,-550 118,-550 38,0 78,368 117,550 38,183 72,551 115,551 43,0 92,-185 144,-551"/>
+  <path class="fil1 str0" d="M23536 6410c38,-906 79,-1361 117,-1361 38,0 81,908 120,1361 38,453 74,1362 117,1362 43,0 92,-455 144,-1362"/>
+  <path class="fil1 str0" d="M24034 6410c38,-1447 79,-2173 117,-2173 39,0 77,1450 115,2173 39,724 75,2174 117,2174 43,0 93,-726 143,-2174"/>
+  <path class="fil1 str0" d="M24526 6410c38,-906 76,-1361 115,-1361 38,0 76,908 114,1361 39,453 73,1362 115,1362 43,0 91,-455 142,-1362"/>
+  <rect class="fil1 str2" x="9936" y="3777" width="5138" height="2671"/>
+  <g transform="matrix(1.00715 0 0 1.00052 -2455.68 -2155.23)">
+   <text x="13094" y="7500"  class="fil3 fnt0">AM modulator</text>
+  </g>
+  <g>
+   <path class="fil2" d="M8116 5188c-14,0 -25,-11 -25,-25 0,-13 12,-24 25,-24l0 49zm1723 21l-1723 -21 0 -49 1724 20 -1 50zm-197 -128l198 103 -200 96 101 -97 -99 -102zm198 78c14,0 25,12 24,25 0,14 -11,25 -25,25l1 -50z"/>
+  </g>
+  <g>
+   <path class="fil2" d="M12421 7729c0,13 -11,24 -25,24 -13,0 -24,-11 -24,-24l49 0zm0 -1279l0 1279 -49 0 0 -1279 49 0zm-125 201l100 -201 101 201 -101 -100 -100 100zm76 -201c0,-13 11,-24 24,-24 14,0 25,11 25,24l-49 0z"/>
+  </g>
+  <g>
+   <path class="fil2" d="M15100 5087c-14,0 -25,-11 -25,-25 0,-13 11,-25 24,-25l1 50zm2410 -7l-2410 7 -1 -50 2410 -6 1 49zm-201 -123l201 98 -199 100 98 -99 -100 -99zm200 74c14,0 25,11 25,24 0,14 -11,25 -24,25l-1 -49z"/>
+  </g>
+  <g transform="matrix(1.00476 0 0 1.00476 -10800.6 -4859.59)">
+   <text x="13149" y="7500"  class="fil3 fnt1">Message  x(t)</text>
+  </g>
+  <g transform="matrix(1.00585 0 0 1.00585 -4028.34 1669.11)">
+   <text x="13260" y="7500"  class="fil3 fnt2">Carrier</text>
+   <text x="14974" y="7500"  class="fil3 fnt2"> wave</text>
+  </g>
+  <g transform="matrix(1.00373 0 0 1.00373 2279.48 -5009.08)">
+   <text x="13600" y="7500"  class="fil3 fnt3">Amplitude</text>
+  </g>
+  <g transform="matrix(1.00373 0 0 1.00373 2279.48 -5009.08)">
+   <text x="13537" y="8147"  class="fil3 fnt3">modulated</text>
+  </g>
+  <g transform="matrix(1.00373 0 0 1.00373 2279.48 -5009.08)">
+   <text x="13561" y="8793"  class="fil3 fnt3">signal </text>
+   <text x="15608" y="8793"  class="fil3 fnt3">(</text>
+   <text x="15952" y="8793"  class="fil3 fnt3">)</text>
+   <text x="15187" y="8793"  class="fil3 fnt4">x</text>
+   <text x="15796" y="8793"  class="fil3 fnt4">t</text>
+   <text x="15468" y="8906"  class="fil3 fnt5">c</text>
+  </g>
+  <g transform="matrix(0.999858 0 0 0.999998 -8348.37 -1330.14)">
+   <text x="14233" y="7500"  class="fil3 fnt6">Time</text>
+  </g>
+  <g transform="matrix(1.00465 0 0 1.00465 904.942 4403.43)">
+   <text x="14159" y="7500"  class="fil3 fnt7">Time</text>
+  </g>
+  <g transform="matrix(1.00465 0 0 1.00465 12052.1 -207.693)">
+   <text x="14236" y="7500"  class="fil3 fnt8">Time</text>
+  </g>
+  <path class="fil1 str1" d="M19554 4728c321,-919 384,-1379 704,-1379 324,6 746,902 1080,1379 306,467 728,1362 1086,1382 352,0 742,-462 1168,-1382"/>
+  <line class="fil1 str3" x1="21344" y1="4672" x2="22717" y2= "3883" />
+  <g transform="matrix(1.00402 0 0 1.00402 7328.67 -4010.02)">
+   <text x="14850" y="7500"  class="fil3 fnt9">Envelope</text>
+  </g>
+  <path class="fil1 str1" d="M19683 7925c318,920 383,1380 701,1380 327,-7 749,-902 1082,-1380 307,-466 728,-1361 1085,-1382 351,0 741,460 1170,1382"/>
+  <g transform="matrix(1.00585 0 0 1.00585 -3315.42 6191.85)">
+   <text x="9063" y="7500"  class="fil3 fnt2">Constant amplitude, frequency and phase shift</text>
+  </g>
+ </g>
+</svg>

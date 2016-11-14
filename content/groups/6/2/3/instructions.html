@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sivun otsikko (ei nay)</title>
+	<script src="../../../../../scripts/jquery.js"></script>
+	<script src="../../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Exercise 3. Envelope Detector for Full Carrier AM and ASK</h1>
+	<p>Detection of full carrier AM is very simple and based on so called Envelope Detector. Envelope is a curve that follows carrier waveform peaks. Make up an AM/ASK system shown in the figure below.</p>
+	<img src="images/Exercise3_AM_EnvelopeDetector.svg" alt="Exercise3_AM_EnvelopeDetector">
+	<p class="caption">AM/ASK system and its Envelope Detector</p>
+	<p>Set DC source to 1V, carrier waveform to 1 V amplitude and Noise Source to 0 V amplitude.</p>
+	<p class="question">1. Set signal generator at the transmitter’s input to cosine waveform and 5Hz frequency. Look at the modulated carrier waveform at the output of the AM-Modulator. Its envelope follows</p>
+	<form>
+		<input type="radio" name="option" value="correct">Cosine waveform
+		<input type="radio" name="option" value="incorrect">Sawtooth waveform
+		<input type="radio" name="option" value="incorrect">Rectangular waveform
+	</form>
+	<p class="question">2. Look at the received and detected signal at the output of the receiver’s LPF, i.e. at the output of envelope detector, with oscilloscope. Detected signal at the output of LPF follows</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Rectangular waveform
+		<input type="radio" name="option" value="incorrect">Sawtooth waveform
+		<input type="radio" name="option" value="correct">Cosine waveform
+	</form>
+	<p class="question">3. Set signal generator at the transmitter’s input to sawtooth waveform. Look at the modulated carrier waveform at the output of the AM-Modulator. Its envelope follows:</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Cosine waveform
+		<input type="radio" name="option" value="correct">Sawtooth waveform
+		<input type="radio" name="option" value="incorrect">Rectangular waveform
+	</form>
+	<p class="question">4. Look at the received and detected signal at the output of the receiver’s LPF, i.e. at the output of envelope detector. Output of LPF follows</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Cosine waveform
+		<input type="radio" name="option" value="correct">Sawtooth waveform
+		<input type="radio" name="option" value="incorrect">Rectangular waveform
+	</form>
+	<p class="question">5. Look at the output of the rectifier inside envelope detector. It consists of</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Only negative half cycles of the carrier waveform
+		<input type="radio" name="option" value="incorrect">Similar signal as at the output of AM-modulator
+		<input type="radio" name="option" value="correct">Only positive half cycles of the carrier waveform
+	</form>
+	<p class="question">6. Compare input and output waveforms of LPF. LPF of the envelope detector</p>
+	<form>
+		<input type="radio" name="option" value="correct">Removes carrier frequency content
+		<input type="radio" name="option" value="incorrect">Rectifies received AM-modulated signal
+		<input type="radio" name="option" value="incorrect">Removes DC-component
+	</form>
+	<p class="question">7. CD-block of the envelope detector</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Removes carrier frequency component
+		<input type="radio" name="option" value="incorrect">Rectifies received AM-modulated signal
+		<input type="radio" name="option" value="correct">Removes DC-component
+	</form>
+    <p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">You passed test. You may now start Exercise 2: Impact of LPF on Signal Shape and Spectrum</p>	
+    <p class="failure">Test failed. Consider again answers tat are not correct</p>
+    <button>Submit your answers</button>  
+  </body>
+</html>

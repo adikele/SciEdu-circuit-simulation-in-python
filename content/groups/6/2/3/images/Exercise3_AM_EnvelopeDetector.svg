@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="297mm" height="210mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 29700 21000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:50}
+    .str1 {stroke:#2B2A29;stroke-width:20}
+    .fil0 {fill:none}
+    .fil1 {fill:#2B2A29}
+    .fnt0 {font-weight:normal;font-size:635px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="354" y="5790" width="3502" height="2456"/>
+  <text x="1054" y="7192"  class="fil1 fnt0">SigGen</text>
+  <rect class="fil1 str1" x="3532" y="6748" width="325" height="542"/>
+  <rect class="fil0 str0" x="14845" y="6797" width="3502" height="2456"/>
+  <text x="15355" y="7886"  class="fil1 fnt0">TranCha</text>
+  <rect class="fil1 str1" x="14812" y="7212" width="325" height="542"/>
+  <rect class="fil1 str1" x="18022" y="7755" width="325" height="542"/>
+  <rect class="fil0 str0" x="5244" y="12306" width="3502" height="2456"/>
+  <text x="6008" y="13395"  class="fil1 fnt0">Carrier</text>
+  <text x="5972" y="14105"  class="fil1 fnt0">Source</text>
+  <rect class="fil1 str1" x="8421" y="13264" width="325" height="542"/>
+  <text x="1312" y="1728"  class="fil1 fnt0">Signal</text>
+  <text x="765" y="2438"  class="fil1 fnt0">Generator</text>
+  <text x="854" y="3147"  class="fil1 fnt0">in cosine,</text>
+  <text x="554" y="3856"  class="fil1 fnt0">sawtooth or </text>
+  <text x="606" y="4566"  class="fil1 fnt0">rectangular</text>
+  <text x="1312" y="5275"  class="fil1 fnt0">mode.</text>
+  <rect class="fil1 str1" x="14812" y="8351" width="325" height="542"/>
+  <line class="fil0 str0" x1="8674" y1="13721" x2="9064" y2= "8738" />
+  <rect class="fil0 str0" x="4600" y="9487" width="3502" height="2456"/>
+  <text x="4805" y="10373"  class="fil1 fnt0">DC Source</text>
+  <rect class="fil1 str1" x="7778" y="10445" width="325" height="542"/>
+  <rect class="fil0 str0" x="4791" y="6312" width="3502" height="2456"/>
+  <text x="5830" y="7080"  class="fil1 fnt0">Adder</text>
+  <rect class="fil1 str1" x="7969" y="7271" width="325" height="542"/>
+  <rect class="fil1 str1" x="4791" y="6726" width="325" height="542"/>
+  <rect class="fil1 str1" x="4791" y="7865" width="325" height="542"/>
+  <line class="fil0 str0" x1="7761" y1="10715" x2="4963" y2= "8132" />
+  <text x="14441" y="4672"  class="fil1 fnt0">Transmission</text>
+  <text x="15135" y="5381"  class="fil1 fnt0">Channel</text>
+  <rect class="fil0 str0" x="20202" y="6782" width="3502" height="2456"/>
+  <text x="20739" y="7674"  class="fil1 fnt0">Rectifier</text>
+  <rect class="fil1 str1" x="20202" y="7738" width="325" height="542"/>
+  <line class="fil0 str0" x1="3532" y1="7060" x2="4954" y2= "7060" />
+  <line class="fil0 str0" x1="8131" y1="7524" x2="9245" y2= "6985" />
+  <rect class="fil0 str1" x="4243" y="3431" width="8865" height="12095"/>
+  <text x="5677" y="4964"  class="fil1 fnt0">AM/ASK Transmitter</text>
+  <rect class="fil1 str1" x="23325" y="7718" width="325" height="542"/>
+  <rect class="fil0 str0" x="22227" y="9855" width="3502" height="2456"/>
+  <text x="23346" y="10747"  class="fil1 fnt0">LPF</text>
+  <rect class="fil1 str1" x="22227" y="10811" width="325" height="542"/>
+  <rect class="fil1 str1" x="25350" y="10791" width="325" height="542"/>
+  <rect class="fil0 str1" x="19823" y="3353" width="9477" height="11806"/>
+  <rect class="fil0 str0" x="9063" y="6335" width="3502" height="2456"/>
+  <text x="9724" y="7183"  class="fil1 fnt0">Multiplier</text>
+  <rect class="fil1 str1" x="9031" y="6751" width="325" height="542"/>
+  <rect class="fil1 str1" x="12240" y="7293" width="325" height="542"/>
+  <rect class="fil1 str1" x="9031" y="7890" width="325" height="542"/>
+  <rect class="fil0 str0" x="14280" y="10546" width="3502" height="2456"/>
+  <text x="15202" y="11635"  class="fil1 fnt0">Noise</text>
+  <text x="15008" y="12345"  class="fil1 fnt0">Source</text>
+  <rect class="fil1 str1" x="17457" y="11504" width="325" height="542"/>
+  <line class="fil0 str0" x1="17535" y1="11788" x2="15082" y2= "8594" />
+  <text x="15294" y="14063"  class="fil1 fnt0">SigGen in</text>
+  <text x="15047" y="14772"  class="fil1 fnt0">noise mode</text>
+  <line class="fil0 str0" x1="12336" y1="7650" x2="14975" y2= "7483" />
+  <line class="fil0 str0" x1="18365" y1="8047" x2="20202" y2= "8047" />
+  <text x="21671" y="4999"  class="fil1 fnt0">AM/ASK Receiver</text>
+  <rect class="fil0 str1" x="20075" y="6025" width="8935" height="8904"/>
+  <text x="21714" y="13689"  class="fil1 fnt0">Envelope Detector</text>
+  <rect class="fil0 str1" x="13630" y="3403" width="5746" height="11987"/>
+  <rect class="fil0 str0" x="15236" y="17235" width="3502" height="2456"/>
+  <text x="15668" y="18126"  class="fil1 fnt0">Oscillosc</text>
+  <rect class="fil1 str1" x="15236" y="18191" width="325" height="542"/>
+  <rect class="fil0 str0" x="20421" y="17303" width="3502" height="2456"/>
+  <text x="20834" y="18195"  class="fil1 fnt0">SpecAna</text>
+  <rect class="fil1 str1" x="20421" y="18259" width="325" height="542"/>
+  <text x="6295" y="18599"  class="fil1 fnt0">Measurement Equipment</text>
+  <rect class="fil0 str0" x="25122" y="6768" width="3502" height="2456"/>
+  <text x="25519" y="7660"  class="fil1 fnt0">DC-block</text>
+  <rect class="fil1 str1" x="25122" y="7724" width="325" height="542"/>
+  <rect class="fil1 str1" x="28245" y="7704" width="325" height="542"/>
+  <text x="9641" y="13256"  class="fil1 fnt0">SigGen in</text>
+  <text x="9253" y="13966"  class="fil1 fnt0">carrier mode</text>
+  <text x="1008" y="10580"  class="fil1 fnt0">SigGen in</text>
+  <text x="1061" y="11289"  class="fil1 fnt0">DC mode</text>
+  <line class="fil0 str0" x1="23704" y1="8010" x2="22389" y2= "11082" />
+  <line class="fil0 str0" x1="25675" y1="11062" x2="25122" y2= "8266" />
+ </g>
+</svg>

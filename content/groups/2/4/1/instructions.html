@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sivun otsikko (ei nay)</title>
+	<script src="../../../../../scripts/jquery.js"></script>
+	<script src="../../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Exercise 1. Signal Waveform and Spectrum</h1>
+	<p>Make a block diagram in Figure 3 to the Flowchart window.</p>
+	<img src="images/SignalWaveformAndSpectrumFigure3.svg" alt="SignalWaveformAndSpectrumFigure3">
+	<p class="caption">Figure 3. Signal shape and its spectrum.</p>
+	<p class="question">1. Connect oscilloscope to Signal Generator output and set signal generator to cosine waveform mode and its frequency to 10 kHz. Its period time (time of one complete cycle) T (f = 1/T) is:</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">1 sec.
+		<input type="radio" name="option" value="incorrect">1 msec.
+		<input type="radio" name="option" value="correct">100 µsec.
+	</form>
+	<p class="question">2. Connect Spectrum Analyzer to Signal generator output. Which frequency component you see?</p>
+    <form>
+		<input type="radio" name="option" value="incorrect">1 and 10 kHz.
+		<input type="radio" name="option" value="correct">10 kHz only
+		<input type="radio" name="option" value="incorrect">1 MHz and 1 kHz
+	</form>
+	<p class="question">3. Change Signal Generator waveform to rectangular wave and set frequency to 20 kHz. What is the period of the signal?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> 0.5 sec.
+		<input type="radio" name="option" value="incorrect">100 µsec.
+		<input type="radio" name="option" value="correct">50 µsec.
+	</form>
+	<p class="question">4. What is the fundamental frequency of this waveform?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> 1 kHz
+		<input type="radio" name="option" value="incorrect">10 kHz
+		<input type="radio" name="option" value="correct">20 kHz
+	</form>
+	<p class="question">5. What is its fourth harmonic frequency?</p>
+	<form>
+		<input type="radio" name="option" value="correct">80 kHz
+		<input type="radio" name="option" value="incorrect">40 kHz
+		<input type="radio" name="option" value="incorrect">20 kHz
+	</form>
+	<p class="question">6. Which frequency components you see at the output of Signal Generator?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> 20 kHz
+		<input type="radio" name="option" value="correct">many multiples of 20 kHz
+		<input type="radio" name="option" value="incorrect">10 and 20 kHz
+	</form>
+	<p class="question">7. Which is the strongest frequency component?</p>
+	<form>
+		<input type="radio" name="option" value="correct" > 80 kHz
+		<input type="radio" name="option" value="incorrect">40 kHz
+		<input type="radio" name="option" value="incorrect">20 kHz
+	</form>
+	<p class="question">8. When time domain signal changes rapidly it contains strong components at high frequencies. Change waveform to sawtooth or triangular mode and compare its spectrum to spectrum of rectangular waveform. High frequency components of Triangular waveform are:</p>
+	<form>
+		<input type="radio" name="option" value="incorrect" > Stronger than high frequency component of rectangular waveform
+		<br>
+		<input type="radio" name="option" value="correct"> Weaker than high frequency component of rectangular waveform
+		<br>
+		<input type="radio" name="option" value="incorrect"> Equally strong as high frequency component of rectangular waveform
+	</form>
+    <p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">You passed test. You may now start Exercise 2: Impact of LPF on Signal Shape and Spectrum</p>	
+    <p class="failure">Test failed. Consider again answers tat are not correct</p>
+    <button>Submit your answers</button>
+        
+  </body>
+</html>

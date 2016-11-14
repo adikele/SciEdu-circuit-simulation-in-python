@@ -1,0 +1,70 @@
+/* Style sheet for instructions and background */
+
+/* Background settings */
+body {
+    background-color: #E6EBE6;
+}
+
+/* Top header settings */
+h1 {
+    font-family: "Times New Roman";
+    color: navy;
+    /*font-size: 14vw;*/
+    margin-left: 0px;
+}
+
+/* Sub header settings */
+h2 {
+    font-family: "Times New Roman";
+    color: navy;
+    /*font-size: 12vw;*/
+    margin-left: 0px;
+}
+
+/* Basic text settings */
+p {
+    font-family: Arial;
+    /*font-size: 10vw;*/
+    color: black;
+} 
+
+/* Question text settings */
+p.question {
+    font-family: Arial;
+    color: black;
+} 
+
+/* Answer text settings */
+form {
+    font-family: Arial;
+    /*font-size: 10vw;*/
+    font-style: italic;
+}
+
+/* Image caption settings */
+p.caption {
+    text-align: center;
+    font-style: italic;
+}
+
+/* Result text styles */
+p.failure {
+    font-style: italic;
+    color: red;
+}
+p.success {
+    font-style: italic;
+    color: green;
+}
+
+/* Image settings */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}

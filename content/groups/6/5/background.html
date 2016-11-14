@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Amplitude Modulation (AM)</title>
+	<script src="../../../../scripts/jquery.js"></script>
+	<script src="../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Objectives</h1>
+	<p>Objective of this assignment is to illustrate and clarify operation of digital 4-phase (QPSK or 4-PSK (Phase Shift Keying)) continuous wave (CW) modulation method.</p>
+	<p>Exercise 1 illustrates operation of QPSK modulator in the transmitter. It transfers spectrum of data from baseband (original frequency band of data that is around zero frequency) to frequency band around usually high carrier frequency.</p>
+	<p>Exercise 2 illustrates operation of the demodulator and detector in the receiver. Demodulator transfers spectrum of the received signal from carrier frequencies back to the baseband and the detector decides, which of the digital symbols was received.</p>
+	<p>Exercise 3 explains impact of noise to QPSK.-system. The higher is the more errors occur and Bit Error Rate (BER) is reduced.</p>
+    <h1>Background</h1>
+	<p>QPSK is one of the so called Continuous Wave (CW) modulation methods, which transfer spectrum of data from zero to higher frequencies with the help of the carrier wave. It is a digital pure phase modulation method where amplitude and frequency of all symbols is the same and phase shift alone contains digital information that is values of two bits in QPSK.</p>
+    <h2>Constellation Diagram</h2>
+    <p>One easy and illustrative way to describe many modulation methods is the constellation diagram shown in the figure below. It consists of two axis: </p>
+	<p>I = In-phase axis that represents zero phase shift carrier wave component that is cos(<i>ω<sub>c</sub>t</i>).</p>
+    <p>Q = Quadrature axis that represents carrier waveform component in 90 degrees phase shift that is cos(<i>ω<sub>c</sub>t</i> +π/2).</p>
+	<p>Distance of each symbol point from the origin corresponds to the amplitude Ac of the carrier wave. In QPSK distance of all symbols from origin is the same because carrier amplitude of all symbols is the same. The only difference between four symbols of QPSK is their phase shift.</p>
+    <img src="images/Background_QPSK_Constellation_Diagram.svg" alt="Background_QPSK_Constellation_Diagram">
+	<p class="caption">Constellation diagram of QPSK modulation.</p>
+	<p>Each signal point of constellation represents one symbol, a carrier burst, with phase shift of 45, 135, -45 or -135 degrees or, in radians, π/2, 3π/2, - π/2 or -3π/2. Constellation diagram does not show duration T of the burst or symbol, and it must be given separately. When symbol duration T is known, the symbol rate is<p>
+	<p><i>r</i> = 1/<i>T</i> Baud  [Baud = 1/sec]</p>
+	<p>QPSK uses four different symbols, one for all possible combination of two bits. Then each symbol carry two bits of information and bit rate is two times the symbol rate, i.e. the bit rate</p>
+	<p><i>r</i><sub>b</sub> = 2*<i>r</i> bps</p>
+	<p><b>Example</b></p>
+	<p>When the carrier amplitude is Ac and symbol duration <i>T</i> = 1μs, the symbol rate <i>r</i> = 1/<I>T</i> = 1 	MBaud. To transmit bit values 11, symbol s<sub>1</sub> is sent as a 1μs carrier waveform  </p>
+	<p><i>s</i><sub>1</sub>(<i>t</i>) = <i>A</i><sub>c</sub> cos(<i>ω<sub>c</sub>t</i> + π/4)</p>
+	<p>In QPSK each symbol carries values of two bits and thus its bit rate doubled compared to symbol rate. Note that symbols closest to each other are defined to differ only on one bit position. This principle is called Gray-coding and it minimizes bit error rate (BER) because most symbol errors occur between neighbor symbols and now each symbol error usually makes only one bit error. </p>
+    <p>Each QPSK-symbol consists of in-phase (I) and quadrature (Q) carrier components. In constellation diagram I-axis corresponds to in-phase carrier component that is cos(<i>ω<sub>c</sub>t</i>) and Q-axis corresponds to quadrature component that is cos(<i>ω<sub>c</sub>t</i> + π/2) = -sin (<i>ω<sub>c</sub>t</i>). We may split up any carrier waveform to these two components.</p>
+   	<p><b>Example</b></p>
+	<p>Symbol s<sub>4</sub> is transmitted as waveform 
+		<i>s</i><sub>4</sub>(<i>t</i>) = <i>A</i><sub>c</sub> cos(<i>ω<sub>c</sub>t</i> + π/4). 
+	Using trigonometric identity: cos(a+-b) = cos a*cos b -+  sin a sin b, we may write:
+	<i>s</i><sub>4</sub>(<i>t</i>)  = <i>A</i><sub>c</sub> cos(<i>ω<sub>c</sub>t</i> - π/4) = <i>A</i><sub>c</sub> cos(<i>ω<sub>c</sub>t</i>) cos(-π/4) + <i>A</i><sub>c</sub> sin(<i>ω<sub>c</sub>t</i>) sin (π/4).
+	Using identity cos(-π/4) = sin (π/4) = 1⁄√2, we get
+    <i>s</i><sub>4</sub>(<i>t</i>)=<i>A</i><sub>c</sub>/√2  cos(<i>ω<sub>c</sub>t</i>)+<i>A</i><sub>c</sub>/√2  sin(<i>ω<sub>c</sub>t</i>)=<i>A</i><sub>c</sub>/√2  cos(<i>ω<sub>c</sub>t</i>)-<i>A</i><sub>c</sub>/√2  cos(<i>ω<sub>c</sub>t</i>+π/2).	       
+	when we use identity sin a = - cos(a+π/2).</p>
+	<p>We see from the constellation diagram and example above that symbol s<sub>4</sub> consists of positive in-phase component and negative quadrature component, both with amplitude of <i>A</i><sub>c</sub>⁄√2.</p>
+    <h2>QPSK Modulator</h2>
+	<p>Constellation diagram above explains also operation of QPSK modulator where bipolar binary data (value 1⁄√2 for binary 1 and (-1)⁄√2  for binary 0) modulates I and Q components of the carrier independently, see figure below. Then modulated carrier components are added to make up complete modulated carrier waveform, a radio burst or symbol. In our example implementation the first bit and all odd numbered bits modulate quadrature component so that at the input of the adder (lower branch in the figure below) it is </p>
+    <p>for binary 1: <i>A</i><sub>c</sub>/√2 cos⁡(<i>ω<sub>c</sub>t</i>+π/2)=-<i>A</i><sub>c</sub>/√2 sin⁡(<i>ω</i><sub>c</sub>t</i>)</p>
+	<p>for binary 0:	<i>A</i><sub>c</sub>/√2  cos⁡(<i>ω<sub>c</sub>t</i>+π/2) =  <i>A</i><sub>c</sub>/√2  sin⁡(<i>ω<sub>c</sub>t</i>)</p>
+  <img src="images/Background__QPSK_Modulator.svg" alt="Background__QPSK_Modulator">
+	<p class="caption">QPSK Modulator</p>
+	<p><b>Example</b></p>
+	<p>Assume that the first bit is 1 and second 0 then signal s2 is transmitted. Now Serial-Parallel(S/P) sends binary 1, that is value 1⁄√2, to lower branch where it multiplies Quadrature carrier waveform <i>A</i><sub>c</sub>/√2 cos⁡(<i>ω<sub>c</sub>t</i>+π/2. To upper branch binary 0, value  (-1)⁄√2, is sent to multiply In-	phase carrier <i>A</i><sub>c</sub>/√2 cos⁡(<i>ω<sub>c</sub>t</i>). Then at the output of the Adder we will have complete symbol s<sub>2</sub> 	that is:</p>
+	<p>s<sub>2</sub> (<i>t</i>)=<i>A</i><sub>c</sub>/√2 cos⁡(<i>ω<sub>c</sub>t</i>+π/2)-  <i>A</i><sub>c</sub>/√2 cos⁡(<i>ω<sub>c</sub>t</i>)=<i>A</i><sub>c</sub>/√2 cos⁡(<i>ω<sub>c</sub>t</i>+π/2)-<i>A</i><sub>c</sub>/√2  cos⁡(<i>ω<sub>c</sub>t</i>)</p>
+	<p> <i>A</i><sub>c</sub>/√2 [cos⁡(<i>ω<sub>c</sub>t</i>)cos⁡(π/2)-sin⁡(<i>ω<sub>c</sub>t</i>)  sin⁡(π/2)-cos⁡(<i>ω<sub>c</sub>t</i>)]=</p>
+	<p>-<i>A</i><sub>c</sub>/√2 [sin⁡(<i>ω<sub>c</sub>t</i>)+cos⁡(<i>ω<sub>c</sub>t</i>)]=-<i>A</i><sub>c</sub>/√2 [cos⁡(<i>ω<sub>c</sub>t</i>-π/4)]= <i>A</i><sub>c</sub> cos⁡(<i>ω<sub>c</sub>t</i>+3π/4)</p>
+	<p>This corresponds to signal s<sub>2</sub> in the constellation figure above.</p>
+	<h2>QPSK Demodulator and Detector</h2>
+	<p>Synchronous receiver multiplies received QPSK signal with in-phase and quadrature carrier waveform as shown in the figure below. Products are integrated over the symbol period T and in the end of symbol decision is made if received bit from each branch is 1 or 0. If output of the integrator is positive binary 1 is detected and, if it is negative, binary 0 is detected.</p>
+	<p><b>Examnple</b></p>
+	<p>Assume that s<sub>2</sub> (representing bits 10) was transmitted and then the received signal is (see constellation figure) <i>A</i><sub>c</sub>  cos⁡(<i>ω<sub>c</sub>t</i>+3π/4). </p>
+	<p>In the upper branch of the receiver in the figure below multiplies it by <i>A</i><sub>c</sub> cos⁡(<i>ω<sub>c</sub>t</i>) and then at the input of the upper integrator we have:</p>
+	<p>Up to this point html is written</p>
+	<p>A great advantage of full carrier AM was that for message detection we need just to follow envelope of the carrier waveform. Receiver does not need to know exact frequency or phase shift of the carrier. This made it possible to make low cost broadcast radio receivers almost one hundred years ago. Figure 4 shows actual implementation of envelope detector. It contains rectifier (diode), Low Pass Filter (R1 and C1) and DC-block (C2)</p>
+	<img src="images/BackgroundEnvelopeDetector.svg" alt="BackgroundEnvelopeDetector">
+    <p class="caption">Envelope detector for AM</p>  
+	<p>Envelope detector is studied in Exercise 3.</p>
+	<h2>Digital Amplitude Modulation, Amplitude Shift Keying (ASK)</h2>
+	<p>Figure below shows a simple example of full carrier ASK, where modulating data is periodic sequence of binary ones and zeros. Modulation index or depth is 100%. In ASK we transmit radio bursts which represent value of a digital symbol.</p>
+	<img src="images/BackgroungASK_binaryData.svg" alt="BackgroungASK_binaryData">
+	<p class="caption">ASK for binary data …101010…</p>
+	<p>When data is originally in bipolar format as in figure 5, we need to add DC voltage 1 V to data and then multiply carrier by that sum signal.</p>
+	<p class="question">1. What does the AM-modulator transmit when modulating message is zero?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">Nothing
+		<br>
+		<input type="radio" name="option" value="correct">Carrier with constant amplitude
+		<br>
+		<input type="radio" name="option" value="incorrect">Carrier with 180 degree’s phase shift
+	</form>
+	<p class="question">2. In AM modulator the message varies carrier’s</p>
+	<form>
+		<input type="radio" name="option" value="correct">amplitude
+		<br>
+		<input type="radio" name="option" value="incorrect">frequency
+		<br>
+		<input type="radio" name="option" value="incorrect">phase shift
+	</form>
+	<p class="question">3. Output of envelope detector follows received signal’s</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">frequency	
+		<br>
+		<input type="radio" name="option" value="incorrect">phase shift 	
+		<br>
+		<input type="radio" name="option" value="correct">amplitude
+	</form>
+		<p class="question">4. In digital AM, ASK, digital message is transmitted as a discrete value of carrier’s</p>
+	<form>
+		<input type="radio" name="option" value="incorrect">frequency
+		<br>
+		<input type="radio" name="option" value="correct">amplitude	
+		<br>
+		<input type="radio" name="option" value="incorrect">phase shift
+	</form>
+	<p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">Congratulation, you have passed the test and may start Exercise 1: Signal wavefom and Spectrum.</p>
+	<p class="failure">Test failed. Consider again answers that are not correct.</p>
+    <button>Submit your answers</button>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Signals in T & F Domain</title>
+	<script src="../../../../scripts/jquery.js"></script>
+	<script src="../../../../scripts/review.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../../../scripts/question_style.css">
+  </head>
+  <body>
+    <h1>Objectives</h1>
+	<p>Objective of this Exercise is to understand fundamental concept of frequency domain representation of signals. This so called spectrum is a key to understand many phenomena in electrical communication technology. </p>
+    <h1>Background</h1>
+    <h2>Introduction to the Concept of Spectrum</h2>
+    <p>Figure 1 shows a basic cosine waveform in time domain as we see it with an oscilloscope. As an example its cycle time is T, at which it repeats itself, is in figure 1 ms. Then there are 1000 cycles in a second, that is 1/T = 1000 1/s = 1000 Hz = 1 kHz = f (frequency or cyclical frequency).<a href="../../../../documents/fft.html">fft linkki.</a></p>
+    <img src="images/CosineWaveformAndSpectrum.svg" alt="CosineWaveformAndSpectrum">
+	<p class="caption">Figure 1 Cosine waveform and its spectrum</p>
+	<p>On the right hand side of Figure 1 we see the corresponding spectrum, which we measure by spectrum analyser. Instead of time, horizontal axis represents now frequency telling which (cosine) frequency components the signal consists of. Signal in Figure 1 consists of one cosine waveform and its spectrum contains only one cosine frequency component at frequency of 1 kHz.</p>
+	<p>Both the time and frequency domain figures specify cosine waveform because they show its amplitude A and frequency f = 1/T. If we know the other, we can draw the other. However, we need both representations of signals because some things may be impossible to understand in time domain but easy to understand in frequency domain and vice versa.</p>
+	<p>Periodic signals repeat themselves at so called fundamental frequency. Periodic signals consist of harmonic frequency components, which are multiples of the fundamental frequency. Figure 2 shows a rectangular pulse train on left hand side, where pulses are repeated regularly in 1 ms periods. Now the fundamental frequency f0 = 1/T = 1/1ms = 1 kHz and harmonic frequencies n f0, where n = 0, 1, 2, ... Then in our example DC or zero harmonic, n = 0, is at frequency 0 Hz, the first harmonic, n = 1, is the fundamental frequency component at 1 kHz, the second harmonic frequency, n = 2, is 2 kHz, the third harmonic is 3 kHz, etc.</p>
+	<img src="images/RectangularPulseTrainAndSpectrum.svg" alt="RectangularPulseTrainAndSpectrum">
+	<p class="caption">Figure 2 Rectangular pulse train, its spectrum and impact of LPF</p>
+	<p>Left hand side of Figure 2 shows a time domain rectangular pulse train and its original spectrum. When it is passed through a Low Pass Filter (LPF), all frequency components above LPF's bandwidth B disappear. </p>
+	<p>Spectrum at the output of LPF does not contain high frequencies, only components below B. Time domain waveform at output of LPF is the sum of its frequency components and it cannot change rapidly because lack of high frequencies (rapidly changing waveforms).</p>
+	<p class="question">1. Rectangular pulse train with period of 1 ms, as in Figure 2, is passed through LPF with the bandwidth B = 500 Hz. What is the waveform like at the output of LPF?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> Close to or exactly rectangular pulses repeated in 1 ms periods
+		<br>
+		<input type="radio" name="option" value="correct"> Plain Direct Current (DC) component, that is constant in time domain
+		<br>
+		<input type="radio" name="option" value="incorrect"> Rectangular pulses with smooth edges
+	</form>
+	<p class="question">2. What is the waveform like if B = 4 kHz?</p>
+	<form>
+		<input type="radio" name="option" value="incorrect"> Close to or exactly rectangular pulses repeated in 1 ms periods
+		<br>
+		<input type="radio" name="option" value="incorrect"> Plain Direct Current (DC) component, that is constant in time domain
+		<br>
+		<input type="radio" name="option" value="correct"> Rectangular pulses with smooth edges
+	</form>
+	<p class="question">What is the waveform like if B = 1 GHz
+	<form>
+		<input type="radio" name="option" value="correct"> Close to or exactly rectangular pulses repeated in 1 ms periods
+		<br>
+		<input type="radio" name="option" value="incorrect"> Plain Direct Current (DC) component, that is constant in time domain
+		<br>
+		<input type="radio" name="option" value="incorrect"> Rectangular pulses with smooth edges
+	</form>
+	<p>When you have answered all the questions you can submit your answers.</p>
+	<p class="success">Congratulation, you have passed the test and may start Exercise 1: Signal wavefom and Spectrum.</p>
+	<p class="failure">Test failed. Consider again answers that are not correct</p>
+    <button>Submit your answers</button>
+  </body>
+</html>
