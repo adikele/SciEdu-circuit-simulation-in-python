@@ -1,5 +1,11 @@
 # SciEdu-circuit-simulation-in-python
 
+The SciEdu project is part of an ongoing technical project at the Information Technology (BE-IT) course in Helsinki Metropolia UAS. As of November 2016, the active team members consist of:
+Tarmo Anttalainen (teacher and guide)
+Aditya Kelekar
+Bikesh Maharjan
+Paribesh Ranabhat
+
 The aim of the SciEdu project is to teach the science of electric signals and signal processing to secondary school students. We are using Python’s pyqtgraph library to create nodes that simulate different signals, such as a signal generator and filters as also devices for viewing signals such as an oscilloscope. The project requires an understanding of the nodes currently available in open source (available by downloading pyqtgraph http://www.pyqtgraph.org/ and running ‘examples’) in order to build new ones.
 
 How to use this project: You will need to install Python 2.7.x Also download the following python libraries:
@@ -15,7 +21,6 @@ How to use this project: You will need to install Python 2.7.x Also download the
 ⦁	In the interactive screen that opens, hover on the dark band on the central, right side of the display and right click to choose from the  available nodes. 
 
 My contribution: So far, I have independently developed a few nodes: PRBS Node, Noise Node and DigiAdder Node. I have also contributed to the other nodes in the set of digital nodes, namely Character to Binary Node, Parity Node and Check Parity Node.
-
 
 ⦁	Example: Simulating the PRBS (pseudo random binary sequence) node:
 Connect the PRBS node and the Oscilloscope node to see the PRBS node's output.
