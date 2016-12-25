@@ -1,7 +1,8 @@
 """
-10.11.2016 PRBS Node added
-24.10.2016, fd control added to VCO. VCO does not output aything if input is zero.
-Char to binary copied to be template for Binary Data Source copied """
+13.12.2016 PRBS Node in polynomial logic added"""
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 from pyqtgraph.flowchart import Node
 from pyqtgraph.Qt import QtGui, QtCore
@@ -10,6 +11,7 @@ import pyqtgraph.metaarray as metaarray
 import scipy.signal
 import global_data
 import numpy as np
+import PRBSnodeFunctions as prbs
 
 from oscilloscope import Oscilloscope
 from pyqtgraph.dockarea import *
@@ -77,12 +79,9 @@ class BinDataSourceNode(CtrlNode):
         return {'Out': out_data}
 
 class PRBSNode(CtrlNode):
-    """Node that outputs 15-bit PRBS data sequence over whole output array"""
-    """The node is based on the working of the 4-bit Linear Feedback Shift Register
-       Currently it works with input option: '4-bit LFSR' but can be extended for other n-bit LFSRs"""
-    
+    '''Node that generates PRBS according to polynomial logic. Currently a polynomial and seed are fed to this node.
+    TODO: Add more polynomials so as to generate varying PRBS; provide option to user in the interface to choose a polynomial.'''
     nodeName = 'PRBSNode'
-
     uiTemplate = [
         ('Data Type','combo', {'values': ['4-bit LFSR', '111...', '1010...'], 'index': 0}),
     ]
@@ -104,25 +103,17 @@ class PRBSNode(CtrlNode):
         self.timer.start(global_data.UPDATE_INTERVAL)
 
 
-    def prbsGetter(self, flagInt):  #returns one bit of the PRBS sequence
-        global globalRegValues
-        if (flagInt == 0):
-            globalRegValues = 0x000f
-
-        output = globalRegValues & 0x0001
-        globalRegValues = ((((( globalRegValues & 0x0002) >> 1) ^ (globalRegValues & 0x0001)) << 4) | (globalRegValues & 0x000f)) >> 1
-        return output
-
-
     def updateSignal(self): # this function is called in regular periods of UPDATE_INTERVAL
         data_type = self.ctrls['Data Type'].currentText()
 
         # Update the signal buffer array depending on the data type
-        for i in range(self.data_size/self.block_count): # i = 0...9999
-            #index = self.pointer * self.data_size/self.block_count + i # index = 0*10000/1+0, 1*10000/1+1, 2*10000+2  ???
-            #index = i
+        for i in range(self.data_size/self.block_count): # i = 0...9999            
             if data_type == '4-bit LFSR':
-                self.data[i] = self.prbsGetter(i)
+                #adding code
+                list1 = prbs.polyParser ("1x4 + 1x3 + 1")
+                polyDictDenom1 = prbs.polyTreater (list1)
+                polyDictSeed1 = {0:1, 1:1, 2:1, 3:1}
+                self.data[i] = prbs.prbsGetter(i, polyDictDenom1, polyDictSeed1 )
            
         self.update(signal=True)
 
